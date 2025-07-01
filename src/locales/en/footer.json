@@ -1,0 +1,65 @@
+{
+  "title": "Free Online Zakat Calculator 2024 - Calculate Zakat Accurately",
+  "description": "Professional Islamic Zakat Calculator - Calculate Zakat on Money, Gold, Silver, Business, Income & More According to Four Islamic Schools",
+  "sections": {
+    "about": {
+      "title": "About Zakat Calculator",
+      "description": "Free Online Zakat Calculator is a comprehensive Islamic tool that helps Muslims calculate their Zakat accurately and easily according to Islamic law."
+    },
+    "features": {
+      "title": "Zakat Calculator Features",
+      "list": [
+        "Live gold and silver prices for accurate Zakat calculation",
+        "Support for all world currencies and exchange rates",
+        "Zakat calculations according to four Islamic schools (Hanafi, Maliki, Shafi'i, Hanbali)",
+        "Easy-to-use interface for all Zakat types",
+        "Instant and accurate Zakat results with Islamic evidence"
+      ]
+    },
+    "contact": {
+      "title": "Contact Zakat Calculator",
+      "email": "Email Support",
+      "support": "Technical Support"
+    }
+  },
+  "copyright": "All rights reserved © 2024 Free Online Zakat Calculator",
+  "madeWith": "Made with",
+  "forMuslims": "for Muslims worldwide",
+  "disclaimer": {
+    "title": "Zakat Calculator Legal Disclaimer",
+    "main": "This Zakat calculator is based on general Islamic jurisprudential rules from reliable sources and uses live gold prices to determine the Nisab threshold for accurate Zakat calculation.",
+    "calculations": "Zakat calculations are provided for educational and guidance purposes only. Differences between Islamic schools may affect specific Zakat rulings.",
+    "consultation": "We strongly recommend consulting a qualified Islamic scholar or local religious authority for complex Zakat cases or individual circumstances.",
+    "tool": "This Zakat calculator tool does not replace specialized Islamic consultation."
+  },
+  "goldPriceWarning": {
+    "title": "Gold Price Warning for Zakat Calculation",
+    "main": "Gold prices for Zakat calculation are fetched from public sources, but we do not guarantee 100% accuracy for Zakat purposes.",
+    "verify": "Please verify gold prices locally when calculating Zakat. Prices may be delayed or differ from actual local market prices."
+  },
+  "references": {
+    "title": "Islamic References for Zakat Calculation",
+    "items": [
+      "The Holy Quran and authentic Hadith on Zakat",
+      "Reliable Islamic jurisprudence books from the four schools for Zakat calculation",
+      "Contemporary Islamic jurisprudence councils' decisions on Zakat",
+      "Fatwas from recognized scholars and Islamic institutions on Zakat",
+      "Kuwaiti Islamic Encyclopedia for Zakat rulings"
+    ]
+  },
+  "objectives": {
+    "title": "Zakat Calculator Project Objectives",
+    "items": [
+      "Facilitate accurate Zakat calculation for Muslims worldwide",
+      "Raise awareness about Zakat rulings and importance in Islam",
+      "Support transparency in financial worship through Zakat",
+      "Provide a free, reliable, and updated Zakat calculation tool",
+      "Serve Islam and Muslims through accurate Zakat calculation"
+    ]
+  },
+  "quranVerse": {
+    "title": "Quranic Verse about Zakat Calculation",
+    "text": "\"Charities are only for the poor and the needy and those employed to collect them and those whose hearts are to be reconciled and for the freeing of slaves and for those in debt and for the cause of Allah and for the wayfarer - an obligation imposed by Allah. And Allah is Knowing and Wise.\"",
+    "reference": "Surah At-Tawbah - Verse 60"
+  }
+} 

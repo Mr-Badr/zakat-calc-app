@@ -1,0 +1,25 @@
+{
+  "title": "Choose Islamic School of Thought",
+  "madhabs": {
+    "hanafi": {
+      "name": "Hanafi",
+      "description": "Hanafi School - Silver Nisab (More Beneficial for Poor)",
+      "details": "Based on silver nisab (595 grams) as it's lower in value and more beneficial for the poor"
+    },
+    "maliki": {
+      "name": "Maliki",
+      "description": "Maliki School - Gold Nisab",
+      "details": "Based on gold nisab (85 grams) as the foundation for calculating nisab"
+    },
+    "shafii": {
+      "name": "Shafi'i",
+      "description": "Shafi'i School - Gold Nisab",
+      "details": "Based on gold nisab (85 grams) with special considerations in some matters"
+    },
+    "hanbali": {
+      "name": "Hanbali",
+      "description": "Hanbali School - Gold Nisab",
+      "details": "Based on gold nisab (85 grams) with stricter conditions in some aspects"
+    }
+  }
+}

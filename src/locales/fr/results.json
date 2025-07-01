@@ -1,0 +1,94 @@
+{
+  "title": "Résultat du calcul de la Zakat",
+  "zakatAmount": {
+    "title": "Montant de la Zakat à payer",
+    "rate": "Taux de Zakat : {rate}%"
+  },
+  "nisab": {
+    "title": "Seuil de Nisab islamique",
+    "description": "Seuil minimum pour l'obligation de la Zakat"
+  },
+  "explanation": {
+    "title": "Explication détaillée du calcul :"
+  },
+  "madhabNote": {
+    "title": "Note de l'école islamique - École {madhab} :"
+  },
+  "evidence": {
+    "title": "Preuves islamiques",
+    "hadith": "De la Sunnah du Prophète :",
+    "consensus": "Consensus des érudits islamiques :",
+    "madhabOpinion": "Opinion de l'école {madhab} :"
+  },
+  "quranEvidence": "Preuve du Coran",
+  "reminder": {
+    "title": "Rappel important avant de payer la Zakat :",
+    "items": [
+      "Assurez-vous qu'une année Hijri complète (354 jours) s'est écoulée sur votre richesse",
+      "Payez la Zakat aux huit bénéficiaires éligibles mentionnés dans le Coran",
+      "Il est recommandé de payer la Zakat pendant le Ramadan ou les mois sacrés",
+      "Calculez la Zakat en utilisant le calendrier Hijri, pas le calendrier grégorien",
+      "Vérifiez les calculs et consultez les érudits en cas de doute",
+      "L'intention est importante lors du paiement de la Zakat"
+    ]
+  },
+  "livestock": {
+    "unit": "tête"
+  },
+  "agriculture": {
+    "unit": "kg"
+  },
+  "explanations": {
+    "cash": "La zakat sur l'argent liquide est due si vos économies atteignent le seuil du Nisab et qu'une année lunaire s'est écoulée.",
+    "gold": "La zakat sur l'or est due si la quantité d'or atteint le seuil du Nisab et qu'une année lunaire s'est écoulée.",
+    "silver": "La zakat sur l'argent est due si la quantité d'argent atteint le seuil du Nisab et qu'une année lunaire s'est écoulée.",
+    "livestock": "La zakat sur le bétail est due si vous possédez le nombre minimum d'animaux pendant une année lunaire complète.",
+    "agriculture": "La zakat sur les produits agricoles est due à la récolte si la quantité atteint le seuil du Nisab.",
+    "business": "La zakat sur les biens commerciaux est due si la valeur des biens atteint le seuil du Nisab pendant une année lunaire.",
+    "investment": "La zakat sur les investissements est due si la valeur de vos investissements atteint le seuil du Nisab pendant une année lunaire.",
+    "rental": "La zakat sur les revenus locatifs est due si votre revenu net atteint le seuil du Nisab pendant une année lunaire.",
+    "income": "La zakat sur le revenu est due si votre revenu total et vos économies atteignent le seuil du Nisab pendant une année lunaire."
+  },
+  "quranVerses": {
+    "quran_1": { 
+      "text": "Et accomplissez la prière, acquittez la zakat et inclinez-vous avec ceux qui s'inclinent.", 
+      "reference": "Sourate Al-Baqara - 2:43" 
+    },
+    "quran_2": { 
+      "text": "Les aumônes ne sont destinées qu'aux pauvres et aux nécessiteux et à ceux qui y travaillent et à ceux dont les cœurs sont à gagner (à l'Islam) et à l'affranchissement des jougs et aux endettés et dans le sentier d'Allah et au voyageur (en détresse). C'est un décret d'Allah ! Et Allah est Omniscient et Sage.", 
+      "reference": "Sourate At-Tawbah - 9:60" 
+    },
+    "quran_3": { 
+      "text": "Et ceux qui thésaurisent l'or et l'argent et ne les dépensent pas dans le sentier d'Allah, annonce-leur un châtiment douloureux.", 
+      "reference": "Sourate At-Tawbah - 9:34" 
+    },
+    "quran_4": { 
+      "text": "Ô vous qui croyez ! Dépensez des bonnes choses que vous avez gagnées et de ce que Nous avons fait sortir de la terre pour vous.", 
+      "reference": "Sourate Al-Baqara - 2:267" 
+    },
+    "quran_5": { 
+      "text": "Et acquittez-en le droit le jour de la récolte", 
+      "reference": "Sourate Al-An'am - 6:141" 
+    },
+    "quran_6": { 
+      "text": "Prélève de leurs biens une aumône par laquelle tu les purifies et les bénis", 
+      "reference": "Sourate At-Tawbah - 9:103" 
+    },
+    "quran_7": { 
+      "text": "Et tout ce que vous donnez comme zakat, cherchant la Face d'Allah, ce sont ceux-là qui multiplient (leur récompense).", 
+      "reference": "Sourate Ar-Rum - 30:39" 
+    },
+    "quran_8": { 
+      "text": "Et ceux dans les biens desquels il y a un droit connu pour le mendiant et le déshérité", 
+      "reference": "Sourate Al-Ma'arij - 70:24-25" 
+    },
+    "quran_9": { 
+      "text": "Et accomplissez la prière et acquittez la zakat et obéissez au Messager, afin que vous ayez la miséricorde.", 
+      "reference": "Sourate An-Nur - 24:56" 
+    },
+    "quran_10": { 
+      "text": "Et il ne leur a été commandé que d'adorer Allah, Lui vouant un culte exclusif, en tant que hanifs, et d'accomplir la prière et d'acquitter la zakat. Et voilà la religion de droiture.", 
+      "reference": "Sourate Al-Bayyinah - 98:5" 
+    }
+  }
+}

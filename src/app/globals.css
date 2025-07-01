@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+
+:root {
+  --font-amiri: 'Amiri', serif;
+  --font-noto: 'Noto Sans Arabic', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+
+  /* الافتراضي */
+  --font-title: var(--font-roboto);
+  --font-body: var(--font-roboto);
+}
+
+[dir='rtl'] {
+  --font-title: var(--font-amiri);
+  --font-body: var(--font-noto);
+}
+
+/* استخدام الخطوط مع المتغيرات */
+.font-title {
+  font-family: var(--font-title);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* الأوزان معرفة بشكل صحيح */
+.font-weight-normal {
+  font-weight: 400;
+}
+
+.font-weight-semibold {
+  font-weight: 600; /* إذا تريد وزن شبه ثقيل */
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-black {
+  font-weight: 900;
+}
+
+/* Arabic text classes */
+.arabic-text {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  text-align: inherit;
+}
+
+.arabic-title {
+  font-family: var(--font-title);
+  line-height: 1.4;
+  text-align: inherit;
+}
+
+/* RTL specific styles */
+[dir='rtl'] .arabic-text,
+[dir='rtl'] .arabic-title {
+  text-align: right;
+}
+
+/* LTR specific styles */
+[dir='ltr'] .arabic-text,
+[dir='ltr'] .arabic-title {
+  text-align: left;
+}
+
+/* Font family utilities */
+.font-amiri {
+  font-family: var(--font-amiri);
+}
+
+.font-noto-arabic {
+  font-family: var(--font-noto);
+}
+
+.font-roboto {
+  font-family: var(--font-roboto);
+}
+
+/* Ensure proper text rendering for Arabic */
+.arabic-text,
+.arabic-title {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+

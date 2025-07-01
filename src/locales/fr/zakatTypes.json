@@ -1,0 +1,42 @@
+{
+  "title": "Calculer la Zakat - Choisissez votre Type de Zakat",
+  "tip": {
+    "title": "Conseil de Calcul de Zakat:",
+    "description": "Calculez la Zakat pour plusieurs types. Sélectionnez votre type de Zakat d'abord, puis revenez pour calculer d'autres types après avoir terminé chaque calcul."
+  },
+  "types": {
+    "money": {
+      "name": "Zakat sur l'Argent et l'Argent Liquide",
+      "description": "Calculez la Zakat sur l'argent liquide, comptes d'épargne, dépôts bancaires et actifs liquides"
+    },
+    "goldSilver": {
+      "name": "Zakat sur l'Or et l'Argent",
+      "description": "Calculez la Zakat sur l'or, l'argent, métaux précieux, bijoux et ornements"
+    },
+    "business": {
+      "name": "Zakat sur les Actifs Commerciaux",
+      "description": "Calculez la Zakat sur marchandises, produits commerciaux, inventaire et actifs commerciaux"
+    },
+    "agriculture": {
+      "name": "Zakat sur les Produits Agricoles",
+      "description": "Calculez la Zakat sur récoltes, fruits, céréales et produits agricoles"
+    },
+    "livestock": {
+      "name": "Zakat sur le Bétail",
+      "description": "Calculez la Zakat sur chameaux, bovins, moutons, chèvres et animaux de ferme"
+    },
+    "income": {
+      "name": "Zakat sur les Revenus et Salaires",
+      "description": "Calculez la Zakat sur salaire, revenus mensuels, primes et gains d'emploi"
+    },
+    "rental": {
+      "name": "Zakat sur les Revenus Locatifs",
+      "description": "Calculez la Zakat sur revenus locatifs de propriétés et biens immobiliers"
+    },
+    "investments": {
+      "name": "Zakat sur les Actions et Investissements",
+      "description": "Calculez la Zakat sur actions, fonds d'investissement, obligations islamiques et titres"
+    }
+  },
+  "selected": "Type de Zakat Sélectionné"
+}

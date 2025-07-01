@@ -1,0 +1,65 @@
+{
+  "title": "Calculatrice Zakat Avancée",
+  "description": "Outil islamique avancé pour le calcul précis de la Zakat selon les quatre écoles islamiques",
+  "sections": {
+    "about": {
+      "title": "À Propos de l'Application",
+      "description": "La Calculatrice Zakat Avancée est un outil islamique complet qui aide les musulmans à calculer leur Zakat avec précision et facilité."
+    },
+    "features": {
+      "title": "Fonctionnalités",
+      "list": [
+        "Prix de l'or en direct et mis à jour",
+        "Support pour toutes les devises mondiales",
+        "Calculs selon les quatre écoles islamiques",
+        "Interface facile à utiliser",
+        "Résultats instantanés et précis"
+      ]
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "email": "Email",
+      "support": "Support Technique"
+    }
+  },
+  "copyright": "Tous droits réservés © 2024 Calculatrice Zakat Avancée",
+  "madeWith": "Fait avec",
+  "forMuslims": "pour les musulmans du monde entier",
+  "disclaimer": {
+    "title": "Avertissement légal",
+    "main": "Cette calculatrice est basée sur les règles générales de jurisprudence islamique de sources fiables et utilise les prix de l'or pour déterminer le seuil de Nisab.",
+    "calculations": "Les calculs sont fournis à des fins éducatives et d'orientation uniquement. Les différences entre les écoles islamiques peuvent affecter certaines décisions.",
+    "consultation": "Nous recommandons fortement de consulter un érudit islamique qualifié ou une autorité religieuse locale pour les cas complexes ou individuels.",
+    "tool": "Cet outil ne remplace pas la consultation islamique spécialisée."
+  },
+  "goldPriceWarning": {
+    "title": "Avertissement sur les prix de l'or",
+    "main": "Les prix de l'or sont récupérés à partir de sources publiques, mais nous ne garantissons pas une précision de 100%.",
+    "verify": "Veuillez vérifier les prix localement si nécessaire. Les prix peuvent être retardés ou différer des prix réels du marché local."
+  },
+  "references": {
+    "title": "Références islamiques",
+    "items": [
+      "Le Saint Coran et les Hadiths authentiques",
+      "Livres de jurisprudence islamique fiables des quatre écoles",
+      "Décisions des conseils de jurisprudence islamique contemporains",
+      "Fatwas d'érudits reconnus et d'institutions islamiques",
+      "Encyclopédie islamique koweïtienne"
+    ]
+  },
+  "objectives": {
+    "title": "Objectifs du projet",
+    "items": [
+      "Faciliter le calcul de la Zakat pour les musulmans du monde entier",
+      "Sensibiliser aux règles et à l'importance de la Zakat",
+      "Soutenir la transparence dans l'adoration financière",
+      "Fournir un outil gratuit, fiable et mis à jour",
+      "Servir l'Islam et les musulmans sans compensation"
+    ]
+  },
+  "quranVerse": {
+    "title": "Verset coranique sur la Zakat",
+    "text": "\"Les aumônes ne sont destinées que pour les pauvres, les indigents, ceux qui y travaillent, ceux dont les cœurs sont à gagner (à l'Islam), l'affranchissement des jougs, ceux qui sont lourdement endettés, dans le sentier d'Allah, et pour le voyageur (en détresse). C'est un décret d'Allah ! Et Allah est Omniscient et Sage.\"",
+    "reference": "Sourate At-Tawbah - Verset 60"
+  }
+} 

@@ -1,0 +1,355 @@
+{
+  "money": {
+    "title": "Zakat Calculator for Cash & Money - Calculate Zakat on Savings",
+    "fields": {
+      "amount": {
+        "label": "Saved Money Amount",
+        "placeholder": "Enter the amount in {currency}"
+      },
+      "debts": {
+        "label": "Debts owed by you",
+        "placeholder": "Enter the amount of debts in {currency}"
+      }
+    },
+    "conditions": {
+      "title": "Conditions for Cash Zakat",
+      "items": [
+        "The money must reach the legally prescribed nisab",
+        "A full lunar year (354 days) must pass",
+        "The money must be surplus beyond basic needs",
+        "Debts owed to you are deducted from the money",
+        "Zakat rate: 2.5% of the net amount"
+      ]
+    },
+    "madhabNote": {
+      "hanafi": "The Hanafi school uses the silver nisab (595 {gram}s) as it is easier on the poor and results in more zakat distribution. This means a lower nisab, thus more people are obligated to pay zakat.",
+      "others": "The {madhab} school uses the gold nisab (85 {gram}s) as the basis for nisab calculation. This is the standard for zakat on money and savings."
+    }
+  },
+  "goldSilver": {
+    "title": "Zakat Calculator for Gold & Silver - Calculate Zakat on Precious Metals",
+    "calculationMethod": {
+      "title": "Calculation Method:",
+      "weight": "By Weight (Original)",
+      "weightDesc": "Zakat on actual weight",
+      "value": "By Value (for ease)",
+      "valueDesc": "Zakat on market value"
+    },
+    "fields": {
+      "goldKarat": {
+        "label": "Gold Karat",
+        "24": "24 Karat",
+        "22": "22 Karat",
+        "21": "21 Karat",
+        "18": "18 Karat",
+        "14": "14 Karat",
+        "10": "10 Karat",
+        "purity": {
+          "24": "100%",
+          "22": "91.7%",
+          "21": "87.5%",
+          "18": "75%",
+          "14": "58.3%",
+          "10": "41.7%"
+        }
+      },
+      "goldWeight": {
+        "label": "Gold Weight",
+        "placeholder": "Enter gold weight in grams"
+      },
+      "silverWeight": {
+        "label": "Silver Weight",
+        "placeholder": "Enter silver weight in grams"
+      }
+    },
+    "units": {
+      "gram": "gram",
+      "karat": "karat",
+      "mithqal": "mithqal",
+      "dirham": "dirham"
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Jewelry used for regular adornment: Scholars differ on zakat obligation. It is safer to pay zakat on it, especially if it is abundant or stored for investment."
+    },
+    "conditions": {
+      "title": "Conditions for Gold and Silver Zakat:",
+      "items": [
+        "Must reach the legally prescribed nisab",
+        "Must pass the full lunar year",
+        "Must be surplus beyond basic needs",
+        "Zakat is calculated on pure weight",
+        "Zakat rate: 2.5% of weight or value"
+      ]
+    },
+    "nisab": {
+      "title": "Gold and Silver Nisab:",
+      "gold": "Gold:",
+      "goldDesc": "85 {gram}s (20 {mithqal})",
+      "silver": "Silver:",
+      "silverDesc": "595 {gram}s (200 {dirham}s)",
+      "rate": "Zakat Rate:",
+      "rateDesc": "2.5% of weight or value"
+    }
+  },
+  "business": {
+    "title": "Zakat Calculator for Business Assets - Calculate Zakat on Trade Goods",
+    "fields": {
+      "inventory": {
+        "label": "Value of goods and inventory",
+        "placeholder": "Enter the total value of goods in {currency}"
+      },
+      "receivables": {
+        "label": "Amounts owed to you - debtors",
+        "placeholder": "Debts owed to you by customers in {currency}"
+      },
+      "payables": {
+        "label": "Debts owed by you",
+        "placeholder": "Debts owed by you to suppliers in {currency}"
+      }
+    },
+    "valuation": {
+      "title": "How to estimate the value of goods",
+      "items": [
+        "Estimate goods at the current selling price (time of zakat)",
+        "Exclude stagnant or damaged goods",
+        "Deduct commercial debts owed to you",
+        "Add confirmed receivables from customers",
+        "Zakat rate: 2.5% of the net trade value"
+      ]
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Trade goods are valued at the selling price at the end of the lunar year, not the purchase price. This means zakat is calculated on the current market value of goods, ensuring fairness in zakat payment according to actual value."
+    }
+  },
+  "agriculture": {
+    "title": "Zakat Calculator for Agriculture - Calculate Zakat on Crops & Produce",
+    "fields": {
+      "cropType": {
+        "label": "Crop Type",
+        "grains": "Grains",
+        "grainsDesc": "Wheat, barley, rice, corn",
+        "fruits": "Fruits",
+        "fruitsDesc": "Apples, oranges, bananas, grapes",
+        "vegetables": "Vegetables",
+        "vegetablesDesc": "Tomatoes, potatoes, onions, carrots",
+        "dates": "Dates",
+        "datesDesc": "Dates, palm trees"
+      },
+      "irrigationType": {
+        "label": "Irrigation Type",
+        "natural": "Natural",
+        "naturalDesc": "Rain, rivers, springs",
+        "artificial": "Artificial",
+        "artificialDesc": "Machine irrigation, pumps"
+      },
+      "harvestValue": {
+        "label": "Harvest Value",
+        "placeholder": "Enter harvest value in {currency}"
+    },
+      "productionCosts": {
+        "label": "Production Costs",
+        "placeholder": "Seeds, fertilizers, labor in {currency}"
+      }
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Agricultural zakat differs from money zakat. Natural irrigation: 10% of harvest. Artificial irrigation: 5% of harvest. Calculated at harvest time, not at sale."
+    },
+    "conditions": {
+      "title": "Conditions for Agricultural Zakat:",
+      "items": [
+        "Harvest must reach the legally prescribed nisab",
+        "Crop must be from zakatable varieties",
+        "Zakat is calculated at harvest time, not sale",
+        "Natural irrigation: 10%, Artificial irrigation: 5%",
+        "Production costs are deducted from harvest value"
+      ]
+    }
+  },
+  "livestock": {
+    "title": "Zakat Calculator for Livestock - Calculate Zakat on Farm Animals",
+    "fields": {
+      "livestockType": {
+        "label": "Livestock Type",
+        "cattle": "Cattle",
+        "cattleDesc": "Cows, buffalo",
+        "sheep": "Sheep",
+        "sheepDesc": "Sheep, goats",
+        "camel": "Camels",
+        "camelDesc": "Camels, dromedaries"
+      },
+      "animalCount": {
+        "label": "Number of Animals",
+        "placeholder": "Enter number of animals"
+      }
+    },
+    "calculationMethod": {
+      "title": "Calculation Method:",
+      "count": "By Count (Original)",
+      "countDesc": "Zakat with the animals themselves",
+      "value": "By Value (for ease)",
+      "valueDesc": "Zakat with the value of animals"
+      },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Livestock zakat has specific texts in Quran and Sunnah. Cattle: nisab 30 heads, Sheep: nisab 40 heads, Camels: nisab 5 heads. Consult scholars in your country."
+    },
+    "conditions": {
+      "title": "Conditions for Livestock Zakat:",
+      "items": [
+        "Must reach the legally prescribed nisab for each type",
+        "Must pass the full lunar year",
+        "Must be grazing (feed on natural pasture)",
+        "Must not be for work or trade",
+        "Zakat is given from the same type of animals"
+      ]
+    },
+    "nisab": {
+      "title": "Livestock Nisab:",
+      "cattle": "Cattle:",
+      "cattleDesc": "30 heads = 1 male calf, 40 heads = 1 female cow",
+      "sheep": "Sheep:",
+      "sheepDesc": "40 heads = 1 sheep, 121 heads = 2 sheep",
+      "camel": "Camels:",
+      "camelDesc": "5 heads = 1 sheep, 25 heads = 1 female camel"
+    }
+  },
+  "income": {
+    "title": "Zakat Calculator for Income & Salary - Calculate Zakat on Earnings",
+    "fields": {
+      "monthlyIncome": {
+        "label": "Monthly Income",
+        "placeholder": "Enter monthly income in {currency}"
+      },
+      "monthlyExpenses": {
+        "label": "Monthly Expenses",
+        "placeholder": "Enter monthly expenses in {currency}"
+      },
+      "additionalIncome": {
+        "label": "Additional Income",
+        "placeholder": "Enter additional income in {currency}"
+      }
+    },
+    "calculationMethod": {
+      "title": "Calculation Method:",
+      "monthly": "Monthly (for ease)",
+      "monthlyDesc": "Pay zakat monthly for ease",
+      "annual": "Annual (original)",
+      "annualDesc": "Collect income for a year then pay zakat"
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Contemporary scholars differ on income zakat. Some see it as monthly for ease, others see it as collected for a year then zakat paid. Consult scholars in your country."
+    },
+    "conditions": {
+      "title": "Conditions for Income Zakat:",
+      "items": [
+        "Income must be surplus beyond basic needs",
+        "Must reach the legally prescribed nisab",
+        "Must be from permissible sources",
+        "Necessary expenses are deducted from income",
+        "Zakat rate: 2.5% of net income"
+      ]
+    }
+  },
+  "rental": {
+    "title": "Zakat Calculator for Rental Income - Calculate Zakat on Property Rent",
+    "fields": {
+      "propertyType": {
+        "label": "Property Type",
+        "residential": "Residential",
+        "residentialDesc": "Apartments and houses",
+        "commercial": "Commercial",
+        "commercialDesc": "Shops and offices",
+        "industrial": "Industrial",
+        "industrialDesc": "Factories and warehouses",
+        "agricultural": "Agricultural",
+        "agriculturalDesc": "Land and farms"
+      },
+      "monthlyRent": {
+        "label": "Monthly Rent",
+        "placeholder": "Enter monthly rent in {currency}"
+      },
+      "annualExpenses": {
+        "label": "Annual Expenses",
+        "placeholder": "Maintenance, insurance, taxes in {currency}"
+      }
+    },
+    "calculationMethod": {
+      "title": "Calculation Method:",
+      "monthly": "Monthly (for ease)",
+      "monthlyDesc": "Pay zakat monthly when receiving rent",
+      "annual": "Annual (original)",
+      "annualDesc": "Collect income for a year then pay zakat"
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Scholars differ on rental zakat. Some see it as monthly when receiving rent, others see collecting it for a year then paying zakat. Consult scholars in your country."
+    },
+    "conditions": {
+      "title": "Conditions for Rental Zakat:",
+      "items": [
+        "Rent must be from a permissible property",
+        "Must reach the legally prescribed nisab",
+        "Rent must be surplus beyond basic needs",
+        "Deduct necessary expenses from rent",
+        "Zakat rate: 2.5% of net rent"
+      ]
+    }
+  },
+  "investments": {
+    "title": "Zakat Calculator for Stocks & Investments - Calculate Zakat on Portfolio",
+    "fields": {
+      "investmentType": {
+        "label": "Investment Type",
+        "stocks": "Stocks",
+        "stocksDesc": "Permissible company stocks",
+        "funds": "Funds",
+        "fundsDesc": "Diverse investment funds",
+        "bonds": "Bonds",
+        "bondsDesc": "Islamic bonds only",
+        "mixed": "Mixed Portfolio",
+        "mixedDesc": "Diverse investments"
+      },
+      "totalValue": {
+        "label": "Current Investment Value",
+        "placeholder": "Current market value of portfolio in {currency}"
+      },
+      "dividends": {
+        "label": "Annual Dividends",
+        "placeholder": "Stock and fund dividends received in {currency}"
+      },
+      "capitalGains": {
+        "label": "Realized Capital Gains",
+        "placeholder": "Realized stock sale profits in {currency}"
+      },
+      "investmentFees": {
+        "label": "Annual Investment Fees",
+        "placeholder": "Portfolio management fees in {currency}"
+      }
+    },
+    "holdingPeriod": {
+      "title": "Holding Period:",
+      "short": "Short-term (Trading)",
+      "shortDesc": "Zakat on full market value",
+      "long": "Long-term (Investment)",
+      "longDesc": "Zakat on distributed and realized profits only"
+    },
+    "fiqhNote": {
+      "title": "Important Jurisprudence Note:",
+      "description": "Short-term investment (trading): Zakat on full market value. Long-term investment: Zakat on distributed and realized profits only. Consult scholars in your country."
+    },
+    "conditions": {
+      "title": "Conditions for Investment Zakat:",
+      "items": [
+        "Investments must be in permissible companies",
+        "Amount must reach the legally prescribed nisab",
+        "Must pass the lunar year",
+        "Investment fees are deducted from profits",
+        "Zakat rate: 2.5% of zakatable amount"
+      ]
+    }
+  }
+}

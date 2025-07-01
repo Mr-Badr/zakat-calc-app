@@ -1,0 +1,32 @@
+{
+  "title": "À propos du Calculateur de Zakat Avancé",
+  "subtitle": "Outil islamique avancé pour calculer la Zakat avec précision et facilité selon les quatre écoles de jurisprudence",
+  "mission": {
+    "title": "Notre Mission",
+    "description": "Nous visons à faciliter le calcul de la Zakat pour les musulmans du monde entier en fournissant un outil précis et facile à utiliser basé sur la jurisprudence islamique correcte.",
+    "accuracy": "Précision Juridique",
+    "accuracyDesc": "Calculs précis selon les quatre écoles de jurisprudence",
+    "ease": "Facilité d'utilisation",
+    "easeDesc": "Interface simple et compréhensible pour tous"
+  },
+  "features": {
+    "title": "Fonctionnalités Clés",
+    "multilingual": "Multilingue",
+    "multilingualDesc": "Support de l'arabe, de l'anglais et du français",
+    "accurate": "Calculs Précis",
+    "accurateDesc": "Prix de l'or et de l'argent en direct",
+    "comprehensive": "Complet",
+    "comprehensiveDesc": "Tous les types de Zakat pris en charge"
+  },
+  "principles": {
+    "title": "Principes Islamiques",
+    "accuracy": "Précision des calculs selon la jurisprudence islamique",
+    "transparency": "Transparence dans la méthode de calcul",
+    "ease": "Faciliter l'accomplissement de l'obligation de la Zakat"
+  },
+  "cta": {
+    "title": "Des questions ?",
+    "description": "Nous sommes là pour vous aider pour toute question sur la Zakat ou l'utilisation du calculateur",
+    "button": "Contactez-nous"
+  }
+} 

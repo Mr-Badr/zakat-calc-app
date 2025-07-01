@@ -1,0 +1,25 @@
+{
+  "title": "Choisir l'École Juridique Islamique",
+  "madhabs": {
+    "hanafi": {
+      "name": "Hanafite",
+      "description": "École Hanafite - Nisab d'Argent (Plus Bénéfique pour les Pauvres)",
+      "details": "Basé sur le nisab d'argent (595 grammes) car il est plus faible en valeur et plus bénéfique pour les pauvres"
+    },
+    "maliki": {
+      "name": "Malikite",
+      "description": "École Malikite - Nisab d'Or",
+      "details": "Basé sur le nisab d'or (85 grammes) comme fondement pour calculer le nisab"
+    },
+    "shafii": {
+      "name": "Chaféite",
+      "description": "École Chaféite - Nisab d'Or",
+      "details": "Basé sur le nisab d'or (85 grammes) avec des considérations spéciales dans certaines questions"
+    },
+    "hanbali": {
+      "name": "Hanbalite",
+      "description": "École Hanbalite - Nisab d'Or",
+      "details": "Basé sur le nisab d'or (85 grammes) avec des conditions plus strictes dans certains aspects"
+    }
+  }
+}

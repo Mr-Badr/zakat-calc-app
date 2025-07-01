@@ -1,0 +1,38 @@
+{
+  "title": "Contactez-nous",
+  "subtitle": "Nous sommes là pour vous aider avec toute question concernant la Zakat ou l'utilisation de la calculatrice",
+  "info": {
+    "title": "Informations de Contact",
+    "email": "Email",
+    "website": "Site Web",
+    "response": "Temps de Réponse",
+    "responseTime": "Dans les 24 heures"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "q1": "Comment calculer la Zakat sur l'argent ?",
+    "a1": "Choisissez la calculatrice de Zakat sur l'argent, entrez le montant épargné, puis sélectionnez le madhab",
+    "q2": "Les prix sont-ils mis à jour ?",
+    "a2": "Oui, les prix de l'or et de l'argent sont mis à jour directement depuis des sources fiables"
+  },
+  "form": {
+    "title": "Envoyer un Message",
+    "name": "Nom Complet",
+    "namePlaceholder": "Entrez votre nom complet",
+    "email": "Email",
+    "emailPlaceholder": "Entrez votre email",
+    "subject": "Sujet",
+    "subjectPlaceholder": "Entrez le sujet du message",
+    "message": "Message",
+    "messagePlaceholder": "Écrivez votre message ici...",
+    "send": "Envoyer le Message",
+    "success": "Votre message a été envoyé avec succès ! Nous vous contacterons bientôt."
+  },
+  "support": {
+    "title": "Support Juridique",
+    "description": "Nous collaborons avec des savants et juristes de confiance pour garantir l'exactitude des calculs selon la jurisprudence islamique correcte",
+    "accurate": "Calculs précis",
+    "scholarly": "Révision savante",
+    "secure": "Sûr et fiable"
+  }
+} 

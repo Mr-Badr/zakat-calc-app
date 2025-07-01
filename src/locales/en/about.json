@@ -1,0 +1,32 @@
+{
+  "title": "About Advanced Zakat Calculator",
+  "subtitle": "Advanced Islamic tool for calculating Zakat accurately and easily according to the four schools of thought",
+  "mission": {
+    "title": "Our Mission",
+    "description": "We aim to facilitate the Zakat calculation process for Muslims around the world by providing an accurate and easy-to-use tool based on correct Islamic jurisprudence.",
+    "accuracy": "Jurisprudential Accuracy",
+    "accuracyDesc": "Accurate calculations according to the four schools of thought",
+    "ease": "Ease of Use",
+    "easeDesc": "Simple and understandable interface for everyone"
+  },
+  "features": {
+    "title": "Key Features",
+    "multilingual": "Multilingual",
+    "multilingualDesc": "Support for Arabic, English, and French",
+    "accurate": "Accurate Calculations",
+    "accurateDesc": "Live gold and silver prices",
+    "comprehensive": "Comprehensive",
+    "comprehensiveDesc": "All supported Zakat types"
+  },
+  "principles": {
+    "title": "Islamic Principles",
+    "accuracy": "Accuracy in calculations according to Islamic jurisprudence",
+    "transparency": "Transparency in calculation method",
+    "ease": "Facilitating the performance of Zakat obligation"
+  },
+  "cta": {
+    "title": "Have Questions?",
+    "description": "We are here to help you with any inquiries about Zakat or using the calculator",
+    "button": "Contact Us"
+  }
+} 

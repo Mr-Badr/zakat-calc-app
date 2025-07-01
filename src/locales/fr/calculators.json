@@ -1,0 +1,401 @@
+{
+  "money": {
+    "title": "Calculateur de Zakat sur l'Argent et l'Argent Liquide - Calculez la Zakat sur l'Épargne",
+    "fields": {
+      "amount": {
+        "label": "Montant d'Argent Épargné",
+        "placeholder": "Entrez le montant en {currency}"
+      },
+      "debts": {
+        "label": "Vos Dettes Impayées",
+        "placeholder": "Entrez le montant des dettes en {currency}"
+      },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date d'acquisition de l'argent",
+        "help": "Si aucune date n'est saisie, le hawl sera supposé complet"
+      }
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur l'Argent Liquide",
+      "items": [
+        "L'argent doit atteindre le nisab prescrit",
+        "Une année Hijri complète doit passer (354 jours)",
+        "L'argent doit être excédentaire aux besoins de base",
+        "Les dettes impayées sont déduites de l'argent",
+        "Taux de Zakat : 2,5% de l'argent net"
+      ]
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "description": "Le principe de la Zakat est qu'elle doit être payée après qu'une année Hijri complète (354 jours) soit passée sur l'argent épargné. Si le hawl n'est pas encore passé, aucune Zakat n'est due jusqu'à ce que le hawl soit complet."
+    },
+    "madhabNote": {
+      "hanafi": "L'école Hanafi utilise le nisab d'argent (595 {gram}) car il est plus indulgent pour les pauvres et entraîne plus de Zakat payée. Cela signifie que le nisab est plus bas, donc plus de personnes sont tenues de payer la Zakat.",
+      "others": "L'école {madhab} utilise le nisab d'or (85 {gram}) comme base pour calculer le nisab. C'est le principe original dans la Zakat de l'argent liquide et épargné."
+    }
+  },
+  "goldSilver": {
+    "title": "Calculateur de Zakat sur l'Or et l'Argent - Calculez la Zakat sur les Métaux Précieux",
+    "fields": {
+      "weight": {
+        "label": "Poids en Grammes",
+        "placeholder": "Entrez le poids en grammes"
+      },
+      "purity": {
+        "label": "Pureté de l'Or",
+        "placeholder": "Sélectionnez la pureté de l'or"
+      },
+      "metalType": {
+        "label": "Type de Métal",
+        "gold": "Or",
+        "silver": "Argent"
+      },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date d'acquisition du métal",
+        "help": "Si aucune date n'est saisie, le hawl sera supposé complet"
+      }
+      },
+    "purity": {
+      "24k": "24 Carats (Pur)",
+      "22k": "22 Carats",
+      "21k": "21 Carats",
+      "18k": "18 Carats",
+      "14k": "14 Carats",
+      "10k": "10 Carats"
+    },
+    "units": {
+      "gram": "gramme",
+      "karat": "carat",
+      "mithqal": "mithqal",
+      "dirham": "dirham"
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur l'Or et l'Argent",
+      "items": [
+        "Le poids doit atteindre le nisab prescrit",
+        "Une année Hijri complète doit passer (354 jours)",
+        "Le métal doit être excédentaire aux besoins de base",
+        "Nisab d'or : 85 grammes (20 mithqal)",
+        "Nisab d'argent : 595 grammes (200 dirham)",
+        "Taux de Zakat : 2,5% de la valeur"
+      ]
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "description": "La Zakat sur l'or et l'argent est payée du même type ou de sa valeur en espèces. Si vous avez des bijoux pour usage personnel, aucune Zakat n'est due sauf s'ils dépassent vos besoins."
+    }
+  },
+  "business": {
+    "title": "Calculateur de Zakat sur les Actifs Commerciaux - Calculez la Zakat sur les Marchandises",
+    "fields": {
+      "inventoryValue": {
+        "label": "Valeur des Marchandises et Stock",
+        "placeholder": "Valeur actuelle des marchandises"
+      },
+      "receivables": {
+        "label": "Argent qui Vous est Dû",
+        "placeholder": "Argent qui vous est dû"
+      },
+      "payables": {
+        "label": "Vos Dettes Impayées",
+        "placeholder": "Dettes que vous devez"
+      },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date de début du commerce",
+        "help": "Si aucune date n'est saisie, le hawl sera supposé complet"
+      },
+      "tradeIntention": {
+        "label": "Intention Commerciale",
+        "help": "Les marchandises sont-elles destinées au commerce ?"
+      }
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur les Biens Commerciaux",
+      "items": [
+        "La valeur des marchandises doit atteindre le nisab prescrit",
+        "Une année Hijri complète doit passer (354 jours)",
+        "Les marchandises doivent être destinées au commerce",
+        "Les marchandises sont évaluées au prix de vente à la fin du hawl",
+        "Les dettes sont déduites des actifs nets",
+        "Taux de Zakat : 2,5% des actifs nets"
+      ]
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "description": "Condition pour la Zakat sur les biens commerciaux : intention commerciale à l'achat et achèvement du hawl. Les marchandises pour usage personnel ne sont pas soumises à la Zakat."
+    }
+  },
+  "agriculture": {
+    "title": "Calculateur de Zakat sur l'Agriculture - Calculez la Zakat sur les Récoltes",
+    "fields": {
+      "cropType": {
+        "label": "Type de Récolte",
+        "grains": "Céréales",
+        "grainsDesc": "Blé, orge, riz, maïs",
+        "fruits": "Fruits",
+        "fruitsDesc": "Pommes, oranges, bananes, raisins",
+        "vegetables": "Légumes",
+        "vegetablesDesc": "Tomates, pommes de terre, oignons, carottes",
+        "dates": "Dattes",
+        "datesDesc": "Dattes, palmiers"
+      },
+      "irrigationType": {
+        "label": "Type d'Irrigation",
+        "natural": "Naturel",
+        "naturalDesc": "Pluie, rivières, sources",
+        "artificial": "Artificiel",
+        "artificialDesc": "Irrigation mécanique, pompes"
+    },
+      "harvestValue": {
+        "label": "Valeur de la Récolte",
+        "placeholder": "Entrez la valeur de la récolte en {currency}"
+      },
+      "productionCosts": {
+        "label": "Coûts de Production",
+        "placeholder": "Semences, engrais, main-d'œuvre en {currency}"
+      }
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur l'Agriculture",
+      "items": [
+        "La récolte doit atteindre le nisab prescrit",
+        "La récolte doit être de types éligibles à la Zakat",
+        "La Zakat est calculée à la récolte, pas à la vente",
+        "Irrigation naturelle : 10%, Irrigation artificielle : 5%",
+        "Les coûts de production sont déduits de la valeur de la récolte"
+      ]
+    },
+    "fiqhNote": {
+      "title": "Note Fiqh Importante",
+      "description": "La Zakat sur l'agriculture diffère de la Zakat sur l'argent. Irrigation naturelle : 10% de la récolte. Irrigation artificielle : 5% de la récolte. Calculée à la récolte, pas à la vente."
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "description": "La Zakat sur l'agriculture est calculée à la récolte, pas à la vente, et est payée de la même récolte. Nisab : 5 wasaq (environ 653 kg)."
+    }
+  },
+  "livestock": {
+    "title": "Calculateur de Zakat sur le Bétail - Calculez la Zakat sur les Animaux de Ferme",
+    "fields": {
+      "livestockType": {
+        "label": "Type de Bétail",
+        "cattle": "Bovins",
+        "cattleDesc": "Vaches, buffles",
+        "sheep": "Ovins",
+        "sheepDesc": "Moutons, chèvres",
+        "camel": "Chameaux",
+        "camelDesc": "Chameaux, dromadaires"
+      },
+      "animalCount": {
+        "label": "Nombre d'Animaux",
+        "placeholder": "Entrez le nombre d'animaux"
+    },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date d'acquisition du bétail",
+        "help": "Si aucune date n'est saisie, le hawl sera supposé complet"
+      },
+      "isSaima": {
+        "label": "Les Animaux sont Saima",
+        "help": "Les animaux paissent-ils sur des pâturages naturels ?"
+      }
+      },
+    "calculationMethod": {
+      "title": "Méthode de Calcul",
+      "count": "Par Nombre (Original)",
+      "countDesc": "Zakat en même type d'animaux",
+      "value": "Par Valeur (Facilitation)",
+      "valueDesc": "Zakat en valeur des animaux"
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur le Bétail",
+      "items": [
+        "Doit atteindre le nisab prescrit pour chaque type",
+        "Une année Hijri complète doit passer",
+        "Doit être saima (paître sur des pâturages naturels)",
+        "Ne doit pas être pour le travail ou le commerce",
+        "La Zakat est payée du même type d'animaux"
+      ]
+    },
+    "nisab": {
+      "title": "Nisab du Bétail",
+      "cattle": "Bovins :",
+      "cattleDesc": "30 têtes = 1 tabi', 40 têtes = 1 musinna",
+      "sheep": "Ovins :",
+      "sheepDesc": "40 têtes = 1 mouton, 121 têtes = 2 moutons",
+      "camel": "Chameaux :",
+      "camelDesc": "5 têtes = 1 mouton, 25 têtes = 1 bint makhad"
+    },
+    "fiqhNote": {
+      "title": "Note Fiqh Importante",
+      "description": "La Zakat sur le bétail a des textes spécifiques dans le Coran et la Sunnah. Bovins : nisab 30 têtes, Ovins : nisab 40 têtes, Chameaux : nisab 5 têtes. Consultez les savants de votre pays."
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "description": "Condition pour la Zakat sur le bétail : les animaux doivent être saima (paître sur des pâturages naturels) et non pour le travail ou le commerce. La Zakat est payée du même type d'animaux."
+    }
+  },
+  "income": {
+    "title": "Calculateur de Zakat sur le Revenu et Salaire - Calculez la Zakat sur les Gains",
+    "fields": {
+      "calculationMethod": {
+        "label": "Méthode de Calcul de la Zakat"
+      },
+      "monthlyIncome": {
+        "label": "Revenu Mensuel de Base",
+        "placeholder": "Salaire mensuel en {currency}"
+      },
+      "additionalIncome": {
+        "label": "Revenu Supplémentaire",
+        "placeholder": "Bonus, commissions, revenu supplémentaire en {currency}"
+      },
+      "monthlyExpenses": {
+        "label": "Dépenses Mensuelles",
+        "placeholder": "Dépenses essentielles en {currency}"
+      },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date de début de l'épargne",
+        "help": "Date de début d'accumulation de l'épargne du revenu"
+      }
+    },
+    "calculationMethod": {
+      "traditional": "Méthode Traditionnelle (Correcte)",
+      "traditionalDesc": "Accumuler le revenu pendant une année Hijri complète puis payer la Zakat",
+      "monthly": "Méthode Mensuelle (Opinion Contemporaine)",
+      "monthlyDesc": "Payer la Zakat sur le revenu mensuellement - opinion de certains savants contemporains"
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur le Revenu",
+      "items": [
+        "Le revenu épargné doit atteindre le nisab prescrit",
+        "Une année Hijri complète doit passer (354 jours)",
+        "Le revenu doit être excédentaire aux besoins de base",
+        "Les dépenses essentielles sont déduites du revenu",
+        "Taux de Zakat : 2,5% du revenu net épargné"
+      ]
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "monthly": "⚠️ La méthode mensuelle est une opinion contemporaine de certains savants contemporains. Le principe de la Zakat est qu'elle doit être payée après qu'une année Hijri soit passée sur l'argent épargné. Consultez les savants de votre pays.",
+      "traditional": "✅ La méthode traditionnelle est le principe original dans la jurisprudence islamique. La Zakat est payée après qu'une année Hijri (354 jours) soit passée sur l'argent épargné du revenu.",
+      "recommendation": "Nous recommandons la méthode traditionnelle sauf si vous avez une fatwa d'un savant de confiance dans votre pays."
+    },
+    "madhabNote": {
+      "hanafi": "L'école Hanafi utilise le nisab d'argent (595 {gram}) dans la Zakat sur le revenu. Certains savants Hanafi contemporains permettent la méthode mensuelle pour faciliter.",
+      "others": "L'école {madhab} utilise le nisab d'or (85 {gram}) dans la Zakat sur le revenu. Le principe original dans les trois écoles est que la Zakat est payée après que le hawl passe."
+    }
+  },
+  "rental": {
+    "title": "Calculateur de Zakat sur les Revenus Locatifs - Calculez la Zakat sur le Loyer",
+    "fields": {
+      "propertyType": {
+        "label": "Type de Propriété",
+        "residential": "Résidentiel",
+        "residentialDesc": "Appartements et maisons",
+        "commercial": "Commercial",
+        "commercialDesc": "Magasins et bureaux",
+        "industrial": "Industriel",
+        "industrialDesc": "Usines et entrepôts",
+        "agricultural": "Agricole",
+        "agriculturalDesc": "Terrains et fermes"
+      },
+      "monthlyRent": {
+        "label": "Loyer Mensuel",
+        "placeholder": "Entrez le loyer mensuel en {currency}"
+      },
+      "annualExpenses": {
+        "label": "Dépenses Annuelles",
+        "placeholder": "Entretien, assurance, taxes en {currency}"
+      }
+      },
+    "calculationMethod": {
+      "title": "Méthode de Calcul :",
+      "monthly": "Mensuel (Facilitation)",
+      "monthlyDesc": "Payer la Zakat mensuellement lors de la réception du loyer",
+      "annual": "Annuel (Original)",
+      "annualDesc": "Accumuler les revenus pendant un an puis payer la Zakat"
+    },
+    "fiqhNote": {
+      "title": "Note Fiqh Importante :",
+      "description": "Les savants diffèrent sur la Zakat locative. Certains la voient comme mensuelle lors de la réception du loyer, d'autres voient l'accumulation pendant un an puis le paiement de la Zakat. Consultez les savants de votre pays."
+    },
+    "conditions": {
+      "title": "Conditions de Zakat Locative :",
+      "items": [
+        "Le loyer doit provenir d'une propriété permise",
+        "Doit atteindre le nisab prescrit",
+        "Le loyer doit être excédentaire aux besoins de base",
+        "Déduire les dépenses nécessaires du loyer",
+        "Taux de Zakat : 2,5% du loyer net"
+      ]
+    }
+  },
+  "investments": {
+    "title": "Calculateur de Zakat sur les Actions et Investissements - Calculez la Zakat sur le Portefeuille",
+    "fields": {
+      "investmentType": {
+        "label": "Type d'Investissement",
+        "islamic": "Investissement Islamique",
+        "islamicDesc": "Fonds islamiques, actions conformes",
+        "conventional": "Investissement Conventionnel",
+        "conventionalDesc": "Actions ordinaires, fonds traditionnels"
+      },
+      "holdingPeriod": {
+        "label": "Période de Détention",
+        "long": "Long Terme",
+        "longDesc": "Investissement pour profit à long terme",
+        "short": "Court Terme",
+        "shortDesc": "Trading à court terme"
+      },
+      "tradeIntention": {
+        "label": "Intention Commerciale",
+        "help": "Cet investissement est-il destiné au trading à court terme ? Si oui, la valeur complète sera soumise à la Zakat."
+      },
+      "totalValue": {
+        "label": "Valeur Totale de l'Investissement",
+        "placeholder": "Valeur marchande actuelle en {currency}"
+      },
+      "dividends": {
+        "label": "Dividendes Annuels",
+        "placeholder": "Profits distribués en {currency}"
+      },
+      "capitalGains": {
+        "label": "Plus-Values Réalisées",
+        "placeholder": "Profits de vente d'investissements en {currency}"
+      },
+      "investmentFees": {
+        "label": "Frais d'Investissement Annuels",
+        "placeholder": "Frais de gestion et commissions en {currency}"
+    },
+      "hawlStartDate": {
+        "label": "Date de Début du Hawl (Hijri)",
+        "placeholder": "Date de début de l'investissement",
+        "help": "Si aucune date n'est saisie, le hawl sera supposé complet"
+      }
+    },
+    "conditions": {
+      "title": "Conditions de Zakat sur les Investissements",
+      "items": [
+        "L'investissement doit atteindre le nisab prescrit",
+        "Une année Hijri complète doit passer (354 jours)",
+        "L'investissement doit être d'une source permise",
+        "Les frais d'investissement sont déduits des profits",
+        "Taux de Zakat : 2,5% des profits réalisés"
+      ]
+    },
+    "islamicNote": {
+      "title": "Note Islamique Importante",
+      "trading": "⚠️ Investissement pour le trading : Zakat sur la valeur marchande complète après déduction des dépenses.",
+      "investment": "✅ Investissement à long terme : Zakat uniquement sur les profits distribués et réalisés, pas sur le capital.",
+      "recommendation": "Consultez les savants de votre pays pour une fatwa appropriée à votre situation d'investissement."
+    },
+    "madhabNote": {
+      "hanafi": "L'école Hanafi utilise le nisab d'argent (595 {gram}) dans la Zakat sur les investissements. Elle différencie entre investissement et commerce dans les règles de Zakat.",
+      "others": "L'école {madhab} utilise le nisab d'or (85 {gram}) dans la Zakat sur les investissements. Elle différencie entre investissement à long terme et trading à court terme."
+    }
+  }
+}

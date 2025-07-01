@@ -1,0 +1,38 @@
+{
+  "title": "Contact Us",
+  "subtitle": "We are here to help you with any questions about Zakat or using the calculator",
+  "info": {
+    "title": "Contact Information",
+    "email": "Email",
+    "website": "Website",
+    "response": "Response Time",
+    "responseTime": "Within 24 hours"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "How do I calculate Zakat on money?",
+    "a1": "Choose the money Zakat calculator, enter the saved amount, then select the madhab",
+    "q2": "Are the prices updated?",
+    "a2": "Yes, gold and silver prices are updated directly from reliable sources"
+  },
+  "form": {
+    "title": "Send a Message",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "subject": "Subject",
+    "subjectPlaceholder": "Enter message subject",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send Message",
+    "success": "Your message has been sent successfully! We will contact you soon."
+  },
+  "support": {
+    "title": "Islamic Support",
+    "description": "We collaborate with trusted scholars and jurists to ensure accurate calculations according to correct Islamic jurisprudence",
+    "accurate": "Accurate calculations",
+    "scholarly": "Scholarly review",
+    "secure": "Safe and reliable"
+  }
+} 
