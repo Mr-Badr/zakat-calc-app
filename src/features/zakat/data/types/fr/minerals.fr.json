@@ -1,0 +1,28 @@
+{
+  "name": "Minerais et Trésors",
+  "icon": "⛏️",
+  "intro": "La zakat sur les minerais et trésors enfouis (rikaz) est due lors de l'extraction. C'est une catégorie spéciale avec ses propres règles dans la loi islamique.",
+  "evidences": [
+    { "type": "Quran", "reference": "59:7", "text": "...et ce qu'Allah a restitué à Son Messager des gens des villes..." },
+    { "type": "Hadith", "reference": "Bukhari 1499", "text": "Pour les minerais, un cinquième (20%) est dû comme zakat lors de l'extraction." }
+  ],
+  "conditions": [
+    "Musulman, adulte, sain d'esprit, libre.",
+    "Possède des minerais ou trésors enfouis extraits de la terre."
+  ],
+  "calculation": "Pour les minerais: payez 2.5% de la valeur. Pour le rikaz (trésor enfoui): payez 20% à l'extraction.",
+  "example": "Exemple: Vous extrayez de l'or d'une valeur de 10,000$. Payez 2.5% = 250$. Si rikaz, payez 20% = 2,000$.",
+  "madhhabNotes": [
+    "Toutes les écoles: 2.5% sur les minerais, 20% sur le rikaz (trésor enfoui)."
+  ],
+  "faq": [
+    { "q": "Qu'est-ce que le rikaz?", "a": "Trésor enfoui des temps pré-islamiques. Voir: https://islamqa.info/fr/answers/129865" },
+    { "q": "La zakat est-elle due sur tous les minerais?", "a": "Oui, si extraits et possédés. Voir: https://islamqa.info/fr/answers/129865" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/fr/answers/129865" },
+    { "name": "Sunnah.com (Bukhari 1499)", "url": "https://sunnah.com/bukhari:1499" }
+  ],
+  "internalLinks": ["money", "gold"],
+  "cta": "Calculer Maintenant"
+} 

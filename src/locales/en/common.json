@@ -22,6 +22,12 @@
   },
   "navbar": {
     "home": "Home",
+    "zakatGuide": "Zakat Guide",
+    "articles": "Articles",
+    "faq": "FAQ",
+    "sources": "Sources",
+    "calculator": "Calculator",
+    "calculatorTooltip": "Main Zakat Calculator",
     "about": "About",
     "contact": "Contact",
     "shortTitle": "Zakat Calculator",

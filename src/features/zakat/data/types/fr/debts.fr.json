@@ -1,0 +1,29 @@
+{
+  "name": "Dettes",
+  "icon": "💳",
+  "intro": "La zakat sur les dettes dépend de si vous devez de l'argent ou si on vous en doit. Si on vous doit de l'argent et que vous attendez un remboursement, la zakat est due.",
+  "evidences": [
+    { "type": "Quran", "reference": "2:280", "text": "Et si quelqu'un est dans la difficulté, alors [qu'il y ait] un délai jusqu'à [un temps de] facilité..." },
+    { "type": "Hadith", "reference": "Bukhari 1464", "text": "Quiconque prend les biens des gens en ayant l'intention de les rembourser, Allah le remboursera pour lui..." }
+  ],
+  "conditions": [
+    "Musulman, adulte, sain d'esprit, libre.",
+    "Les dettes qui vous sont dues sont attendues d'être remboursées.",
+    "Les dettes que vous devez sont immédiates et dues dans l'année."
+  ],
+  "calculation": "Ajoutez les dettes qui vous sont dues (si attendues). Soustrayez les dettes immédiates que vous devez de vos actifs imposables.",
+  "example": "Exemple: On vous doit 1,000$ et vous attendez un remboursement. Ajoutez à votre calcul de zakat. Vous devez 500$ dus cette année; soustrayez de vos actifs.",
+  "madhhabNotes": [
+    "Toutes les écoles: La zakat est due sur les dettes qui vous sont dues si attendues. Les dettes immédiates que vous devez sont soustraites."
+  ],
+  "faq": [
+    { "q": "La zakat est-elle due sur l'argent que j'ai prêté aux autres?", "a": "Oui, si vous attendez un remboursement. Voir: https://islamqa.info/fr/answers/1464" },
+    { "q": "Puis-je soustraire toutes les dettes que je dois?", "a": "Seulement les dettes immédiates dues dans l'année. Voir: https://islamqa.info/fr/answers/22426" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/fr/answers/1464" },
+    { "name": "Sunnah.com (Bukhari 1464)", "url": "https://sunnah.com/bukhari:1464" }
+  ],
+  "internalLinks": ["money", "business"],
+  "cta": "Calculer Maintenant"
+} 

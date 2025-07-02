@@ -1,0 +1,46 @@
+{
+  "id": "zakat-basics",
+  "title": "Understanding Zakat: The Third Pillar of Islam",
+  "summary": "A comprehensive guide to Zakat, one of the five pillars of Islam. Learn about its importance, conditions, and how it benefits both the giver and receiver.",
+  "content": "<h2>What is Zakat?</h2><p>Zakat is an annual charitable payment that is obligatory for Muslims who meet certain wealth criteria. It is the third pillar of Islam and serves as a means of purifying wealth and helping those in need.</p><h2>The Importance of Zakat</h2><p>Zakat plays a crucial role in Islamic society by:</p><ul><li>Redistributing wealth from the rich to the poor</li><li>Purifying the wealth of the giver</li><li>Strengthening community bonds</li><li>Fulfilling a religious obligation</li></ul><h2>Conditions for Zakat</h2><p>Zakat becomes obligatory when:</p><ul><li>You are a Muslim</li><li>You are free (not a slave)</li><li>You are of sound mind</li><li>You own wealth above the nisab threshold</li><li>Your wealth has been in your possession for one lunar year</li></ul><h2>Types of Wealth Subject to Zakat</h2><p>Zakat applies to various types of wealth including:</p><ul><li>Gold and silver</li><li>Cash and bank deposits</li><li>Business inventory</li><li>Agricultural produce</li><li>Livestock</li><li>Investments and stocks</li></ul>",
+  "category": "zakat",
+  "tags": ["zakat", "islam", "charity", "obligation", "wealth"],
+  "author": "Islamic Scholars",
+  "date": "2024-01-15",
+  "readTime": "5 min read",
+  "featured": true,
+  "seo": {
+    "title": "Understanding Zakat: Complete Guide to Islamic Charity",
+    "description": "Learn about Zakat, the third pillar of Islam. Understand its importance, conditions, and how to calculate your Zakat obligation.",
+    "keywords": "zakat, islamic charity, muslim obligation, wealth purification, islamic finance"
+  },
+  "faq": [
+    {
+      "q": "What is the minimum amount for Zakat?",
+      "a": "The minimum amount (nisab) is equivalent to 87.48 grams of gold or 612.36 grams of silver."
+    },
+    {
+      "q": "When should I pay Zakat?",
+      "a": "Zakat should be paid annually when your wealth has been in your possession for one lunar year."
+    },
+    {
+      "q": "Who is eligible to receive Zakat?",
+      "a": "Zakat can be given to the poor, needy, those in debt, travelers, and those working to collect Zakat."
+    }
+  ],
+  "internalLinks": [
+    "/en/zakat/money",
+    "/en/zakat/gold",
+    "/en/calculators"
+  ],
+  "sources": [
+    {
+      "name": "Quran 2:267-273",
+      "url": "https://quran.com/2/267-273"
+    },
+    {
+      "name": "Sahih Bukhari - Book of Zakat",
+      "url": "https://sunnah.com/bukhari/24"
+    }
+  ]
+} 

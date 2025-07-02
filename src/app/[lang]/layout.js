@@ -3,7 +3,7 @@
 import { getLocale } from '@/lib/getLocale';
 import { Amiri, Noto_Sans_Arabic, Roboto } from 'next/font/google';
 import { TranslationProvider } from '@/context/TranslationContext';
-import Navbar from '@/common/components/Navbar';
+import NavbarWrapper from '@/common/components/NavbarWrapper';
 import Footer from '@/common/components/Footer';
 
 const amiri = Amiri({
@@ -105,7 +105,7 @@ export default async function LangLayout({ children, params }) {
     <html lang={lang} dir={dir} className={fontClasses}>
       <body className="bg-white text-gray-900">
         <TranslationProvider locale={locale} lang={lang}>
-          <Navbar />
+          <NavbarWrapper lang={lang} />
           <main>{children}</main>
           <Footer />
         </TranslationProvider>

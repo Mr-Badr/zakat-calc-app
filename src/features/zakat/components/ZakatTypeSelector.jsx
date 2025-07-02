@@ -1,6 +1,7 @@
 import React from 'react';
 import * as LucideIcons from 'lucide-react';
 import { useTranslation } from '@/context/TranslationContext';
+import { Tooltip } from '@/common/components/Tooltip';
 
 const ZakatTypeSelector = ({ selectedType, onTypeSelect }) => {
   const { t, isLoading, isInitialized, translations, language, SUPPORTED_LANGUAGES } = useTranslation();
@@ -111,7 +112,7 @@ const ZakatTypeSelector = ({ selectedType, onTypeSelect }) => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {zakatTypes.map((type) => {
-          const IconComponent = LucideIcons[type.icon];
+          const IconComponent = LucideIcons[type.icon] || (() => <span>{type.emoji || '🧮'}</span>);
           const isSelected = selectedType === type.id;
           
           // الحصول على الترجمة للنوع الحالي مع fallback عربي
@@ -119,69 +120,17 @@ const ZakatTypeSelector = ({ selectedType, onTypeSelect }) => {
           const typeDescription = t(`zakatTypes.types.${type.id}.description`, arabicFallbacks[type.id]?.description || '');
 
           return (
-            <div
-              key={type.id}
-              className={`relative group rounded-xl border-2 transition-all duration-300 overflow-hidden ${
-                isSelected
-                  ? `${selectedColors[type.id]} shadow-lg transform scale-105`
-                  : `${backgroundColors[type.id]} hover:shadow-md hover:scale-102`
-              }`}
-              style={{ minHeight: '160px' }}
-            >
+            <Tooltip key={type.id} content={typeDescription} placement={isRTL ? 'left' : 'right'}>
               <button
                 onClick={() => onTypeSelect(type.id)}
-                className="w-full h-full p-4 text-right transition-all duration-300 flex flex-col relative"
-                style={{ minHeight: '160px' }}
+                className={`rounded-xl border-2 p-5 flex flex-col items-center transition-all duration-200 shadow-sm hover:shadow-lg focus:outline-none ${isSelected ? selectedColors[type.id] : backgroundColors[type.id]}`}
+                aria-label={typeName}
               >
-                {/* أيقونة في الزاوية العلوية اليسرى */}
-                <div className="absolute top-4 left-4">
-                  <div
-                    className={`p-2.5 rounded-lg transition-all duration-300 ${
-                      isSelected
-                        ? 'bg-white shadow-lg transform scale-110'
-                        : 'bg-white/80 group-hover:bg-white group-hover:shadow-md group-hover:scale-105'
-                    }`}
-                  >
-                    <IconComponent
-                      size={24}
-                      className={`${iconColors[type.id]} transition-all duration-300 ${
-                        isSelected ? 'drop-shadow-sm' : 'group-hover:drop-shadow-sm'
-                      }`}
-                    />
-                  </div>
-                </div>
-
-                {/* النص في الوسط والأسفل */}
-                <div className="flex-1 flex flex-col justify-center pr-2 pl-16">
-                  <h3
-                    className={`font-bold text-base mb-2 arabic-text transition-colors duration-200 leading-tight ${
-                      isSelected ? 'text-gray-800' : 'text-gray-700 group-hover:text-gray-800'
-                    }`}
-                  >
-                    {typeName}
-                  </h3>
-                  <p
-                    className={`text-sm leading-relaxed arabic-text transition-colors duration-200 line-clamp-3 ${
-                      isSelected ? 'text-gray-700' : 'text-gray-600 group-hover:text-gray-700'
-                    }`}
-                  >
-                    {typeDescription}
-                  </p>
-                </div>
+                <span className={`text-3xl mb-2 ${iconColors[type.id]}`}>{type.emoji || <IconComponent size={32} />}</span>
+                <span className="font-bold text-lg mb-1 arabic-title">{typeName}</span>
+                <span className="text-xs text-gray-600 text-center arabic-text">{typeDescription}</span>
               </button>
-
-              {/* مؤشر التحديد في الزاوية السفلى اليسرى */}
-              {isSelected && (
-                <div className="absolute bottom-3 left-3 fade-in">
-                  <div className="flex items-center space-x-1.5 space-x-reverse bg-white rounded-full px-2.5 py-1 shadow-md border border-green-200">
-                    <LucideIcons.CheckCircle className="text-green-600" size={14} />
-                    <span className="text-xs font-medium text-green-700 arabic-text">
-                      {t('zakatTypes.selected', 'محدد')}
-                    </span>
-                  </div>
-                </div>
-              )}
-            </div>
+            </Tooltip>
           );
         })}
       </div>

@@ -1,0 +1,46 @@
+{
+  "id": "zakat-basics",
+  "title": "Comprendre la Zakat : Le Troisième Pilier de l'Islam",
+  "summary": "Un guide complet de la Zakat, l'un des cinq piliers de l'Islam. Apprenez son importance, ses conditions et comment elle profite au donneur et au receveur.",
+  "content": "<h2>Qu'est-ce que la Zakat ?</h2><p>La Zakat est un paiement caritatif annuel obligatoire pour les musulmans qui répondent à certains critères de richesse. C'est le troisième pilier de l'Islam et sert de moyen de purifier la richesse et d'aider les nécessiteux.</p><h2>L'importance de la Zakat</h2><p>La Zakat joue un rôle crucial dans la société islamique en :</p><ul><li>Redistribuant la richesse des riches vers les pauvres</li><li>Purifiant la richesse du donneur</li><li>Renforçant les liens communautaires</li><li>Remplissant une obligation religieuse</li></ul><h2>Conditions pour la Zakat</h2><p>La Zakat devient obligatoire quand :</p><ul><li>Vous êtes musulman</li><li>Vous êtes libre (pas esclave)</li><li>Vous êtes sain d'esprit</li><li>Vous possédez une richesse au-dessus du seuil de nisab</li><li>Votre richesse est en votre possession depuis une année lunaire</li></ul><h2>Types de Richesse Soumis à la Zakat</h2><p>La Zakat s'applique à divers types de richesse incluant :</p><ul><li>Or et argent</li><li>Espèces et dépôts bancaires</li><li>Inventaire commercial</li><li>Produits agricoles</li><li>Bétail</li><li>Investissements et actions</li></ul>",
+  "category": "zakat",
+  "tags": ["zakat", "islam", "charité", "obligation", "richesse"],
+  "author": "Érudits Islamiques",
+  "date": "2024-01-15",
+  "readTime": "5 min de lecture",
+  "featured": true,
+  "seo": {
+    "title": "Comprendre la Zakat : Guide Complet de la Charité Islamique",
+    "description": "Apprenez la Zakat, le troisième pilier de l'Islam. Comprenez son importance, ses conditions et comment calculer votre obligation de Zakat.",
+    "keywords": "zakat, charité islamique, obligation musulmane, purification de la richesse, finance islamique"
+  },
+  "faq": [
+    {
+      "q": "Quel est le montant minimum pour la Zakat ?",
+      "a": "Le montant minimum (nisab) équivaut à 87,48 grammes d'or ou 612,36 grammes d'argent."
+    },
+    {
+      "q": "Quand dois-je payer la Zakat ?",
+      "a": "La Zakat doit être payée annuellement quand votre richesse est en votre possession depuis une année lunaire."
+    },
+    {
+      "q": "Qui est éligible pour recevoir la Zakat ?",
+      "a": "La Zakat peut être donnée aux pauvres, nécessiteux, endettés, voyageurs et ceux qui travaillent à collecter la Zakat."
+    }
+  ],
+  "internalLinks": [
+    "/fr/zakat/money",
+    "/fr/zakat/gold",
+    "/fr/calculators"
+  ],
+  "sources": [
+    {
+      "name": "Coran 2:267-273",
+      "url": "https://quran.com/2/267-273"
+    },
+    {
+      "name": "Sahih Bukhari - Livre de la Zakat",
+      "url": "https://sunnah.com/bukhari/24"
+    }
+  ]
+} 

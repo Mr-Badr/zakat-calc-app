@@ -1,0 +1,35 @@
+{
+  "name": "Gold & Silver",
+  "icon": "🥇",
+  "intro": "Zakat on gold and silver is obligatory for anyone who owns these metals above the nisab for a full lunar year. It ensures wealth is purified and benefits those in need.",
+  "evidences": [
+    { "type": "Quran", "reference": "9:34", "text": "And those who hoard gold and silver and spend it not in the way of Allah... give them tidings of a painful punishment." },
+    { "type": "Quran", "reference": "9:60", "text": "Zakat expenditures are only for the poor and for the needy..." },
+    { "type": "Hadith", "reference": "Abu Dawood 1568", "text": "No zakat is due on less than five awsuq of dates, nor less than five camels, nor less than five uqiyah of silver." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns gold or silver above the nisab (85g gold, 595g silver) for one lunar year (hawl).",
+    "Metals are fully owned and accessible."
+  ],
+  "calculation": "Weigh your gold and silver. If the total is above the nisab, pay 2.5% of the market value.",
+  "example": "Example: You own 100g of gold. The nisab is 85g. You pay 2.5% of the value of 100g.",
+  "madhhabNotes": [
+    "Hanafi: Zakat on all gold, including jewelry.",
+    "Maliki/Shafi'i: No zakat on personal jewelry.",
+    "Hanbali: Precaution is to pay zakat on jewelry."
+  ],
+  "faq": [
+    { "q": "Is zakat due on gold jewelry?", "a": "Hanafi: Yes. Others: Not if for personal use. See: https://islamqa.info/en/answers/19901/zakaah-on-jewellery" },
+    { "q": "What is the nisab for gold?", "a": "85g pure gold. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" },
+    { "q": "Is zakat due on silver jewelry?", "a": "Yes, if above nisab. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" },
+    { "q": "How do I calculate the value?", "a": "Use current market price for gold/silver. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/cat/27" },
+    { "name": "Dar al-Ifta Egypt", "url": "https://www.dar-alifta.org/Foreign/ViewFatwa.aspx?ID=1234" },
+    { "name": "Sunnah.com (Abu Dawood 1568)", "url": "https://sunnah.com/abudawud:1568" }
+  ],
+  "internalLinks": ["money", "business"],
+  "cta": "Calculate Now"
+} 

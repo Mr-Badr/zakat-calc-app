@@ -1,0 +1,257 @@
+{
+  "title": "Sources et Références",
+  "subtitle": "Sources et références islamiques fiables",
+  "description": "Nos calculs sont basés sur des sources islamiques authentiques et le consensus savant de diverses écoles juridiques et conseils islamiques contemporains.",
+  
+  "sections": {
+    "primary": {
+      "title": "Sources Principales",
+      "description": "Coran et Hadith - Les sources fondamentales de la loi islamique",
+      "sources": [
+        {
+          "name": "Coran (Université du Roi Saoud)",
+          "description": "Coran complet avec traductions multiples et tafsir",
+          "url": "https://quran.ksu.edu.sa/",
+          "type": "primary",
+          "icon": "quran"
+        },
+        {
+          "name": "Sunnah.com",
+          "description": "Collection de hadiths authentiques avec recherche et vérification",
+          "url": "https://sunnah.com/",
+          "type": "primary",
+          "icon": "hadith"
+        }
+      ]
+    },
+    
+    "scholarly": {
+      "title": "Références Savantes",
+      "description": "Fatwas et décisions de savants islamiques qualifiés et conseils",
+      "sources": [
+        {
+          "name": "IslamQA",
+          "description": "Plateforme Q&R complète avec perspective hanbalite",
+          "url": "https://islamqa.info/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "IslamWeb",
+          "description": "Portail islamique avec perspectives malikite et chafi'ite",
+          "url": "https://www.islamweb.net/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "Dar Al-Ifta d'Égypte",
+          "description": "Institution officielle de fatwa d'Égypte",
+          "url": "https://www.dar-alifta.org/",
+          "type": "council",
+          "icon": "council"
+        }
+      ]
+    },
+    
+    "academic": {
+      "title": "Ressources Académiques",
+      "description": "Articles de recherche et études académiques sur la finance islamique",
+      "sources": [
+        {
+          "name": "Académie de Recherche Islamique",
+          "description": "Institution de recherche axée sur l'économie islamique",
+          "url": "https://www.islamic-academy.org/",
+          "type": "academic",
+          "icon": "academy"
+        },
+        {
+          "name": "Université Islamique Internationale de Malaisie",
+          "description": "Recherche académique sur la finance et l'économie islamiques",
+          "url": "https://www.iium.edu.my/",
+          "type": "academic",
+          "icon": "university"
+        }
+      ]
+    },
+    
+    "regulatory": {
+      "title": "Organismes Réglementaires",
+      "description": "Autorités de réglementation de la banque et finance islamiques",
+      "sources": [
+        {
+          "name": "Conseil des Services Financiers Islamiques",
+          "description": "Organisme international de normalisation pour la finance islamique",
+          "url": "https://www.ifsb.org/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        },
+        {
+          "name": "Organisation de Comptabilité et d'Audit pour les Institutions Financières Islamiques",
+          "description": "Normes AAOIFI pour la finance islamique",
+          "url": "https://aaoifi.com/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        }
+      ]
+    },
+    
+    "fiqh_councils": {
+      "title": "Conseils de Fiqh Islamiques et Académies",
+      "description": "Organismes savants islamiques contemporains qui fournissent des conseils sur les questions financières modernes",
+      "sources": [
+        {
+          "name": "Académie de Fiqh Islamique (Jeddah)",
+          "description": "Académie Internationale de Fiqh Islamique sous l'Organisation de la Coopération Islamique",
+          "url": "https://www.fiqhacademy.org",
+          "type": "council",
+          "icon": "academy"
+        },
+        {
+          "name": "Conseil Européen de la Fatwa et de la Recherche",
+          "description": "Conseil fournissant des conseils islamiques pour les musulmans en Europe",
+          "url": "https://www.e-cfr.org",
+          "type": "council",
+          "icon": "council"
+        },
+        {
+          "name": "Conseil de Fiqh d'Amérique du Nord",
+          "description": "Conseil des savants islamiques en Amérique du Nord",
+          "url": "https://www.fiqhcouncil.org",
+          "type": "council",
+          "icon": "council"
+        },
+        {
+          "name": "Académie Internationale de Fiqh Islamique (IIFA)",
+          "description": "Organisme international de premier plan pour la jurisprudence islamique",
+          "url": "https://www.iifa-aifi.org",
+          "type": "council",
+          "icon": "academy"
+        }
+      ]
+    },
+    
+    "contemporary_scholars": {
+      "title": "Savants Islamiques Contemporains",
+      "description": "Savants renommés qui ont contribué à la finance islamique moderne",
+      "sources": [
+        {
+          "name": "Dr. Yusuf Al-Qaradawi",
+          "description": "Savant islamique contemporain de premier plan et auteur",
+          "url": "https://fr.wikipedia.org/wiki/Yusuf_al-Qaradawi",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "Dr. Wahbah Al-Zuhayli",
+          "description": "Savant islamique syrien renommé et auteur",
+          "url": "https://fr.wikipedia.org/wiki/Wahbah_al-Zuhayli",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "Dr. Muhammad Taqi Usmani",
+          "description": "Savant islamique pakistanais et expert en finance islamique",
+          "url": "https://fr.wikipedia.org/wiki/Muhammad_Taqi_Usmani",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "Dr. Abdullah Al-Mutlaq",
+          "description": "Savant islamique saoudien et membre du Conseil des Grands Savants",
+          "url": "https://fr.wikipedia.org/wiki/Abdullah_Al-Mutlaq",
+          "type": "scholar",
+          "icon": "scholar"
+        }
+      ]
+    },
+    
+    "academic_resources": {
+      "title": "Ressources Académiques et de Recherche",
+      "description": "Institutions académiques et centres de recherche spécialisés dans la finance islamique",
+      "sources": [
+        {
+          "name": "Institut de Recherche et de Formation Islamiques (IRTI)",
+          "description": "Bras de recherche de la Banque Islamique de Développement",
+          "url": "https://www.irti.org",
+          "type": "academic",
+          "icon": "research"
+        },
+        {
+          "name": "Université de Durham - Finance Islamique",
+          "description": "Centre d'Économie et de Finance Islamiques",
+          "url": "https://www.dur.ac.uk/business/centres/islamic/",
+          "type": "academic",
+          "icon": "university"
+        },
+        {
+          "name": "Projet de Finance Islamique de Harvard",
+          "description": "Initiative de recherche sur la finance islamique à l'Université Harvard",
+          "url": "https://ifp.law.harvard.edu",
+          "type": "academic",
+          "icon": "research"
+        }
+      ]
+    },
+    
+    "regulatory_bodies": {
+      "title": "Organismes Réglementaires et de Normalisation",
+      "description": "Organisations qui établissent des normes et fournissent des conseils pour la finance islamique",
+      "sources": [
+        {
+          "name": "Banque Negara Malaysia - Banque Islamique",
+          "description": "Directives de banque islamique de la Banque Centrale de Malaisie",
+          "url": "https://www.bnm.gov.my",
+          "type": "regulatory",
+          "icon": "bank"
+        },
+        {
+          "name": "Banque Centrale Saoudienne - Finance Islamique",
+          "description": "Règlementations de finance islamique de la banque centrale saoudienne",
+          "url": "https://www.sama.gov.sa",
+          "type": "regulatory",
+          "icon": "bank"
+        }
+      ]
+    },
+    
+    "online_resources": {
+      "title": "Ressources Islamiques en Ligne",
+      "description": "Plateformes fiables en ligne pour la connaissance et la recherche islamiques",
+      "sources": [
+        {
+          "name": "Sunnah.com",
+          "description": "Base de données complète de hadiths et moteur de recherche",
+          "url": "https://sunnah.com",
+          "type": "online",
+          "icon": "database"
+        },
+        {
+          "name": "Quran.com",
+          "description": "Coran en ligne avec traductions et récitations multiples",
+          "url": "https://quran.com",
+          "type": "online",
+          "icon": "quran"
+        },
+        {
+          "name": "Islamic Relief - Guide de la Zakat",
+          "description": "Guide complet pour le calcul et la distribution de la Zakat",
+          "url": "https://www.islamic-relief.org",
+          "type": "online",
+          "icon": "charity"
+        },
+        {
+          "name": "Muslim Hands - Ressources de Zakat",
+          "description": "Ressources éducatives sur la Zakat et la charité islamique",
+          "url": "https://muslimhands.org.uk",
+          "type": "online",
+          "icon": "charity"
+        }
+      ]
+    }
+  },
+  
+  "disclaimer": "Cet outil est éducatif. Pour des cas spécifiques de zakat, consultez un savant qualifié.",
+  
+  "last_updated": "2024-01-15",
+  "version": "1.0"
+} 

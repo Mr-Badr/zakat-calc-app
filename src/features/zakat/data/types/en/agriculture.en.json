@@ -1,0 +1,29 @@
+{
+  "name": "Agriculture",
+  "icon": "🌾",
+  "intro": "Zakat on agricultural produce is due on crops and fruits that reach the nisab at harvest. It supports the poor and encourages gratitude for Allah's blessings.",
+  "evidences": [
+    { "type": "Quran", "reference": "6:141", "text": "...and give its due [zakah] on the day of its harvest..." },
+    { "type": "Hadith", "reference": "Bukhari 1483", "text": "On a land irrigated by rain water or by natural water channels or if the land is wet due to a nearby water channel, ush'r (one-tenth) is compulsory..." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns crops/fruits that reach the nisab (approx. 653 kg of dates/grains).",
+    "Produce is harvested from land owned or managed."
+  ],
+  "calculation": "If irrigated naturally, pay 10% of the harvest. If irrigated artificially, pay 5%.",
+  "example": "Example: You harvest 1,000 kg of wheat irrigated by rain. Pay 10% = 100 kg as zakat.",
+  "madhhabNotes": [
+    "All schools: Zakat is due at harvest if nisab is reached. Rate depends on irrigation method."
+  ],
+  "faq": [
+    { "q": "What is the nisab for crops?", "a": "Approx. 653 kg of dates/grains. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" },
+    { "q": "Is zakat due on vegetables?", "a": "No, only on storable crops/fruits. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver" },
+    { "name": "Sunnah.com (Bukhari 1483)", "url": "https://sunnah.com/bukhari:1483" }
+  ],
+  "internalLinks": ["livestock"],
+  "cta": "Calculate Now"
+} 

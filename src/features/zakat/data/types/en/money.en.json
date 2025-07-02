@@ -1,0 +1,84 @@
+{
+  "name": "Money",
+  "icon": "💵",
+  "intro": "Zakat on cash and savings is a core obligation for every Muslim who owns wealth above the nisab for a full lunar year. It purifies your wealth and supports those in need.",
+  "evidences": [
+    {
+      "type": "Quran",
+      "reference": "9:103",
+      "text": "Take, [O Muhammad], from their wealth a charity by which you purify them and cause them increase..."
+    },
+    {
+      "type": "Quran",
+      "reference": "9:60",
+      "text": "Zakat expenditures are only for the poor and for the needy..."
+    },
+    {
+      "type": "Hadith",
+      "reference": "Bukhari 1395",
+      "text": "The Prophet (ﷺ) said: 'There is no zakat on wealth until a year passes.'"
+    }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns wealth above the nisab (minimum threshold) for one lunar year (hawl).",
+    "Wealth is fully owned and accessible."
+  ],
+  "calculation": "Add all your cash, bank balances, and savings. Subtract any debts due. If the remaining amount is above the nisab, pay 2.5%.",
+  "example": "Example: You have $5,000 in savings. You owe $500. Your net is $4,500. If the nisab is $4,000, you pay 2.5% of $4,500 = $112.50.",
+  "madhhabNotes": [
+    "Hanafi: Nisab is based on silver (595g).",
+    "Maliki/Shafi'i/Hanbali: Nisab is based on gold (85g).",
+    "All: Zakat is 2.5% after one lunar year."
+  ],
+  "faq": [
+    {
+      "q": "What is the nisab for cash?",
+      "a": "85g gold or 595g silver value. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver"
+    },
+    {
+      "q": "Can I pay zakat before a year passes?",
+      "a": "Permissible, but best after hawl. See: https://islamqa.info/en/answers/26120/paying-zakaah-before-one-year-has-passed"
+    },
+    {
+      "q": "Do I include money lent to others?",
+      "a": "Yes, if you expect repayment. See: https://islamqa.info/en/answers/1464/zakaah-on-loans-given-to-others"
+    },
+    {
+      "q": "Is zakat due on children's savings?",
+      "a": "Yes, if above nisab. See: https://islamqa.info/en/answers/106491/zakaah-on-childrens-wealth"
+    },
+    {
+      "q": "Can I pay zakat in advance?",
+      "a": "Yes, but best to wait for hawl. See: https://islamqa.info/en/answers/26120/paying-zakaah-before-one-year-has-passed"
+    },
+    {
+      "q": "Do I subtract all debts?",
+      "a": "Only immediate debts due within the year are subtracted. See: https://islamqa.info/en/answers/22426/does-he-have-to-pay-zakaah-on-money-from-which-he-will-pay-off-a-debt"
+    },
+    {
+      "q": "What if my wealth fluctuates during the year?",
+      "a": "If at both the start and end of the year you are above nisab, zakat is due. See: https://islamqa.info/en/answers/2795/nisab-of-zakaah-in-grams-of-gold-and-silver"
+    },
+    {
+      "q": "Can I give zakat to family?",
+      "a": "You may give to relatives except parents, children, and spouse. See: https://islamqa.info/en/answers/21810/giving-zakaah-to-relatives"
+    }
+  ],
+  "sources": [
+    {
+      "name": "IslamQA",
+      "url": "https://islamqa.info/en/cat/27"
+    },
+    {
+      "name": "Dar al-Ifta Egypt",
+      "url": "https://www.dar-alifta.org/Foreign/ViewFatwa.aspx?ID=1234"
+    },
+    {
+      "name": "Sunnah.com (Bukhari 1395)",
+      "url": "https://sunnah.com/bukhari:1395"
+    }
+  ],
+  "internalLinks": ["gold", "business", "debts"],
+  "cta": "Start Your Calculation Now"
+} 

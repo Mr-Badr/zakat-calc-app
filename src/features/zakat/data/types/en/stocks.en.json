@@ -1,0 +1,28 @@
+{
+  "name": "Stocks & Investments",
+  "icon": "📈",
+  "intro": "Zakat on stocks and shares is due if they are held for trade or investment and their value exceeds the nisab for a full lunar year. This ensures investment wealth is purified.",
+  "evidences": [
+    { "type": "Quran", "reference": "2:267", "text": "O you who have believed, spend from the good things which you have earned..." },
+    { "type": "Hadith", "reference": "Abu Dawood 1568", "text": "No zakat is due on less than five awsuq of dates, nor less than five camels, nor less than five uqiyah of silver." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns stocks/shares above the nisab for one lunar year (hawl).",
+    "Held for trade or investment, not personal use."
+  ],
+  "calculation": "If held for trade, pay zakat on full market value. If for investment, pay zakat on zakatable assets of the company (see annual reports).",
+  "example": "Example: You own $10,000 in shares for trade. Pay 2.5% = $250. For investment, calculate zakatable assets proportionally.",
+  "madhhabNotes": [
+    "All schools: Zakat is due on trade shares at market value. For investment, only on zakatable assets."
+  ],
+  "faq": [
+    { "q": "Is zakat due on all shares?", "a": "If for trade, yes. If for investment, only on zakatable assets. See: https://islamqa.info/en/answers/69912/zakaah-on-shares-in-companies" },
+    { "q": "How do I calculate zakat on investment shares?", "a": "Check the company's annual report for zakatable assets. See: https://islamqa.info/en/answers/69912/zakaah-on-shares-in-companies" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/answers/69912/zakaah-on-shares-in-companies" }
+  ],
+  "internalLinks": ["money", "business"],
+  "cta": "Calculate Now"
+} 

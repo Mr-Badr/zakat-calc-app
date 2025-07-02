@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { CheckCircle, XCircle, Info, Calculator, Download, BookOpen, AlertTriangle } from 'lucide-react';
 import { useTranslation } from '@/context/TranslationContext';
 import { getIslamicEvidence } from '@/features/zakat/utils/islamicEvidence';
@@ -7,6 +7,27 @@ import { generateZakatPDF as generatePDF } from '@/features/zakat/utils/pdfGener
 const ZakatResult = ({ result, zakatType, madhab, currency = 'USD' }) => {
   const { t, language, SUPPORTED_LANGUAGES } = useTranslation();
   const isRTL = SUPPORTED_LANGUAGES[language]?.dir === 'rtl';
+  const [faqs, setFaqs] = useState([]);
+
+  useEffect(() => {
+    // Dynamically import the relevant faq.json for the current language
+    async function loadFaqs() {
+      try {
+        const faqData = await import(`@/locales/${language}/faq.json`);
+        // Try to get type-specific questions, fallback to general
+        const typeFaqs = faqData.default?.[zakatType] || [];
+        // If not found, fallback to first 2 general questions
+        const generalFaqs = [
+          { q: faqData.default.q1, a: faqData.default.a1 },
+          { q: faqData.default.q2, a: faqData.default.a2 }
+        ];
+        setFaqs(typeFaqs.length ? typeFaqs : generalFaqs);
+      } catch (e) {
+        setFaqs([]);
+      }
+    }
+    loadFaqs();
+  }, [language, zakatType]);
 
   if (!result) return null;
 
@@ -179,6 +200,19 @@ const ZakatResult = ({ result, zakatType, madhab, currency = 'USD' }) => {
             </p>
           </div>
         )}
+
+        {/* More Info Button */}
+        <div className="mt-6 text-right">
+          <a
+            href={`/${language}/zakat/${zakatType}#fiqh`}
+            className="inline-flex items-center px-4 py-2 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg border border-blue-200 transition-all duration-200 text-sm font-medium shadow-sm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <BookOpen size={16} className="mr-2" />
+            {t('results.moreInfo', 'مزيد من المعلومات الفقهية')}
+          </a>
+        </div>
       </div>
 
       {/* الأدلة الشرعية */}
@@ -286,6 +320,24 @@ const ZakatResult = ({ result, zakatType, madhab, currency = 'USD' }) => {
               </div>
             </div>
           </div>
+        </div>
+      )}
+
+      {/* Small FAQ Section */}
+      {faqs.length > 0 && (
+        <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl shadow p-6 mt-2">
+          <h4 className="text-lg font-bold text-blue-800 mb-4 flex items-center">
+            <Info size={18} className="mr-2" />
+            {t('faq.title', 'الأسئلة الشائعة')}
+          </h4>
+          <ul className="space-y-4">
+            {faqs.slice(0, 3).map((faq, i) => (
+              <li key={i} className="bg-white rounded-lg border border-blue-100 p-4 shadow-sm">
+                <div className="font-semibold text-gray-800 mb-1">{faq.q}</div>
+                <div className="text-gray-600 text-sm">{faq.a}</div>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
     </div>

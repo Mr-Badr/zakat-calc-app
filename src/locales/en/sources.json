@@ -1,0 +1,95 @@
+{
+  "title": "Sources & References",
+  "subtitle": "Reliable Islamic sources and references",
+  "description": "Our calculations are based on authentic Islamic sources and scholarly consensus from various madhabs and contemporary Islamic councils.",
+  "disclaimer": "This tool is educational. For specific zakat cases, consult a qualified scholar.",
+  "sections": {
+    "primary": {
+      "title": "Primary Sources",
+      "description": "Quran and Hadith - The foundational sources of Islamic law",
+      "sources": [
+        {
+          "name": "Quran (King Saud University)",
+          "description": "Complete Quran with multiple translations and tafsir",
+          "url": "https://quran.ksu.edu.sa/",
+          "type": "primary",
+          "icon": "quran"
+        },
+        {
+          "name": "Sunnah.com",
+          "description": "Authentic Hadith collection with search and verification",
+          "url": "https://sunnah.com/",
+          "type": "primary",
+          "icon": "hadith"
+        }
+      ]
+    },
+    "scholarly": {
+      "title": "Scholarly References",
+      "description": "Fatwas and rulings from qualified Islamic scholars and councils",
+      "sources": [
+        {
+          "name": "IslamQA",
+          "description": "Comprehensive Q&A platform with Hanbali perspective",
+          "url": "https://islamqa.info/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "IslamWeb",
+          "description": "Islamic portal with Maliki and Shafi'i perspectives",
+          "url": "https://www.islamweb.net/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "Dar Al-Ifta Al-Misriyyah",
+          "description": "Official fatwa institution of Egypt",
+          "url": "https://www.dar-alifta.org/",
+          "type": "council",
+          "icon": "council"
+        }
+      ]
+    },
+    "academic": {
+      "title": "Academic Resources",
+      "description": "Research papers and academic studies on Islamic finance",
+      "sources": [
+        {
+          "name": "Islamic Research Academy",
+          "description": "Research institution focusing on Islamic economics",
+          "url": "https://www.islamic-academy.org/",
+          "type": "academic",
+          "icon": "academy"
+        },
+        {
+          "name": "International Islamic University Malaysia",
+          "description": "Academic research on Islamic finance and economics",
+          "url": "https://www.iium.edu.my/",
+          "type": "academic",
+          "icon": "university"
+        }
+      ]
+    },
+    "regulatory": {
+      "title": "Regulatory Bodies",
+      "description": "Islamic banking and finance regulatory authorities",
+      "sources": [
+        {
+          "name": "Islamic Financial Services Board",
+          "description": "International standard-setting body for Islamic finance",
+          "url": "https://www.ifsb.org/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        },
+        {
+          "name": "Accounting and Auditing Organization for Islamic Financial Institutions",
+          "description": "AAOIFI standards for Islamic finance",
+          "url": "https://aaoifi.com/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        }
+      ]
+    }
+  }
+} 

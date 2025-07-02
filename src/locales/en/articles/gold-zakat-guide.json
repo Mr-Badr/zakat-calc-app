@@ -1,0 +1,71 @@
+{
+  "id": "gold-zakat-guide",
+  "title": "Complete Guide to Gold Zakat: Rules, Calculations, and Examples",
+  "summary": "Learn everything about Zakat on gold jewelry, coins, and investments. Understand the nisab threshold, calculation methods, and when gold becomes zakatable.",
+  "content": "<h2>What is Gold Zakat?</h2><p>Gold Zakat is the obligatory charity payment on gold that has been in your possession for one lunar year and exceeds the nisab threshold. This includes gold jewelry, coins, bars, and investments.</p><h2>Nisab Threshold for Gold</h2><p>The current nisab for gold is 87.48 grams (approximately 3.08 ounces). If you own gold worth more than this amount and have held it for one lunar year, you must pay Zakat on it.</p><h2>Types of Gold Subject to Zakat</h2><ul><li><strong>Gold Jewelry:</strong> Rings, necklaces, bracelets, earrings</li><li><strong>Gold Coins:</strong> Investment coins, collectible coins</li><li><strong>Gold Bars:</strong> Investment bars, bullion</li><li><strong>Gold Investments:</strong> Gold ETFs, gold mining stocks</li></ul><h2>Calculation Method</h2><p>Zakat on gold is calculated at 2.5% of the total value of your gold holdings. The calculation is:</p><p><strong>Zakat Amount = Total Gold Value × 2.5%</strong></p><h2>Example Calculation</h2><p>If you own gold jewelry worth $5,000 and gold coins worth $3,000:</p><ul><li>Total Gold Value: $8,000</li><li>Zakat Rate: 2.5%</li><li>Zakat Amount: $8,000 × 0.025 = $200</li></ul><h2>Important Considerations</h2><ul><li>Only pay Zakat if your total gold exceeds the nisab threshold</li><li>The gold must be in your possession for one full lunar year</li><li>Use current market prices for valuation</li><li>Include all forms of gold you own</li></ul>",
+  "category": "zakat",
+  "tags": ["gold", "zakat", "jewelry", "investment", "calculation"],
+  "author": "Islamic Finance Expert",
+  "date": "2024-01-20",
+  "readTime": "7 min read",
+  "featured": false,
+  "seo": {
+    "title": "Gold Zakat Guide: Complete Rules and Calculation Methods",
+    "description": "Master gold Zakat calculations with our comprehensive guide. Learn about nisab thresholds, jewelry rules, and step-by-step calculation examples.",
+    "keywords": "gold zakat, jewelry zakat, zakat calculation, islamic finance, gold investment"
+  },
+  "howTo": {
+    "name": "How to Calculate Gold Zakat",
+    "totalTime": "PT10M",
+    "estimatedCost": "Free",
+    "tool": "Calculator",
+    "supply": ["Gold inventory", "Current gold prices"],
+    "steps": [
+      {
+        "name": "Inventory Your Gold",
+        "text": "List all gold items you own including jewelry, coins, and investments."
+      },
+      {
+        "name": "Determine Current Value",
+        "text": "Calculate the current market value of each gold item using today's gold prices."
+      },
+      {
+        "name": "Check Nisab Threshold",
+        "text": "Verify if your total gold value exceeds 87.48 grams of gold (current nisab)."
+      },
+      {
+        "name": "Calculate Zakat",
+        "text": "Multiply your total gold value by 2.5% to get your Zakat amount."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I pay Zakat on gold jewelry I wear daily?",
+      "a": "Yes, if the total value of your gold jewelry exceeds the nisab threshold and you've owned it for one lunar year."
+    },
+    {
+      "q": "What if my gold value fluctuates during the year?",
+      "a": "Use the current market value on the day you calculate your Zakat, not the value when you acquired it."
+    },
+    {
+      "q": "Is there Zakat on gold-plated items?",
+      "a": "No, Zakat only applies to items made of pure gold or gold alloys with significant gold content."
+    }
+  ],
+  "internalLinks": [
+    "/en/zakat/gold",
+    "/en/calculators",
+    "/en/articles/zakat-basics"
+  ],
+  "sources": [
+    {
+      "name": "Islamic Fiqh Academy - Gold Zakat Rulings",
+      "url": "https://www.fiqhacademy.org"
+    },
+    {
+      "name": "Contemporary Islamic Finance - Gold Investment",
+      "url": "https://www.islamicfinance.com"
+    }
+  ]
+} 

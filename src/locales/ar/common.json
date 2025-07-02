@@ -22,6 +22,12 @@
   },
   "navbar": {
     "home": "الرئيسية",
+    "zakatGuide": "دليل الزكاة",
+    "articles": "مقالات",
+    "faq": "الأسئلة الشائعة",
+    "sources": "المصادر",
+    "calculator": "حاسبة الزكاة",
+    "calculatorTooltip": "حاسبة الزكاة الرئيسية",
     "about": "حول",
     "contact": "اتصل بنا",
     "shortTitle": "حاسبة الزكاة",

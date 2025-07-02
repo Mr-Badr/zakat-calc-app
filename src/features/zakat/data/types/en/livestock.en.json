@@ -1,0 +1,29 @@
+{
+  "name": "Livestock",
+  "icon": "🐑",
+  "intro": "Zakat on livestock is due on camels, cattle, sheep, and goats that are grazed and reach the nisab for a full lunar year. It is a means of purifying wealth and supporting the needy.",
+  "evidences": [
+    { "type": "Quran", "reference": "6:141", "text": "...and give its due [zakah] on the day of its harvest..." },
+    { "type": "Hadith", "reference": "Bukhari 1454", "text": "There is no zakat on less than five camels..." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns livestock above the nisab for one lunar year (hawl).",
+    "Animals are grazed freely most of the year."
+  ],
+  "calculation": "Zakat is due if you own: 5+ camels, 30+ cattle, or 40+ sheep/goats. The amount varies by number and type.",
+  "example": "Example: You own 50 sheep. Zakat due: 1 sheep. See detailed tables for other animals.",
+  "madhhabNotes": [
+    "All schools: Zakat is due on freely-grazed livestock above nisab. Amount varies by type and number."
+  ],
+  "faq": [
+    { "q": "What is the nisab for sheep?", "a": "40 sheep. See: https://islamqa.info/en/answers/145951/the-nisaab-for-zakaah-on-sheep-and-goats" },
+    { "q": "Is zakat due on animals fed with bought fodder?", "a": "No, only on freely-grazed animals. See: https://islamqa.info/en/answers/145951/the-nisaab-for-zakaah-on-sheep-and-goats" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/answers/145951/the-nisaab-for-zakaah-on-sheep-and-goats" },
+    { "name": "Sunnah.com (Bukhari 1454)", "url": "https://sunnah.com/bukhari:1454" }
+  ],
+  "internalLinks": ["agriculture"],
+  "cta": "Calculate Now"
+} 

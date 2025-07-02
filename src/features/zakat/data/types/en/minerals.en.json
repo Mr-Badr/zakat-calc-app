@@ -1,0 +1,28 @@
+{
+  "name": "Minerals & Treasure",
+  "icon": "⛏️",
+  "intro": "Zakat on minerals and buried treasure (rikaz) is due at the time of extraction. It is a special category with its own rules in Islamic law.",
+  "evidences": [
+    { "type": "Quran", "reference": "59:7", "text": "...and whatever Allah restored to His Messenger from the people of the towns..." },
+    { "type": "Hadith", "reference": "Bukhari 1499", "text": "For minerals, one-fifth (20%) is due as zakat at the time of extraction." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Owns minerals or buried treasure extracted from the earth."
+  ],
+  "calculation": "For minerals: pay 2.5% of value. For rikaz (buried treasure): pay 20% at extraction.",
+  "example": "Example: You extract gold worth $10,000. Pay 2.5% = $250. If rikaz, pay 20% = $2,000.",
+  "madhhabNotes": [
+    "All schools: 2.5% on minerals, 20% on rikaz (buried treasure)."
+  ],
+  "faq": [
+    { "q": "What is rikaz?", "a": "Buried treasure from pre-Islamic times. See: https://islamqa.info/en/answers/129865/rikaz-buried-treasure-and-the-ruling-on-it" },
+    { "q": "Is zakat due on all minerals?", "a": "Yes, if extracted and owned. See: https://islamqa.info/en/answers/129865/rikaz-buried-treasure-and-the-ruling-on-it" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/answers/129865/rikaz-buried-treasure-and-the-ruling-on-it" },
+    { "name": "Sunnah.com (Bukhari 1499)", "url": "https://sunnah.com/bukhari:1499" }
+  ],
+  "internalLinks": ["money", "gold"],
+  "cta": "Calculate Now"
+} 

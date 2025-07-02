@@ -1,0 +1,95 @@
+{
+  "title": "المصادر والمراجع",
+  "subtitle": "مصادر ومراجع إسلامية موثوقة",
+  "description": "تستند حساباتنا إلى مصادر إسلامية أصيلة وإجماع علمي من مختلف المذاهب والمجامع الإسلامية المعاصرة.",
+  "disclaimer": "هذه الأداة تعليمية. في الحالات الخاصة، استشر عالماً مؤهلاً.",
+  "sections": {
+    "primary": {
+      "title": "المصادر الأساسية",
+      "description": "القرآن الكريم والحديث النبوي - المصادر الأساسية للشريعة الإسلامية",
+      "sources": [
+        {
+          "name": "القرآن الكريم (جامعة الملك سعود)",
+          "description": "القرآن الكريم كاملاً مع ترجمات متعددة وتفسير",
+          "url": "https://quran.ksu.edu.sa/",
+          "type": "primary",
+          "icon": "quran"
+        },
+        {
+          "name": "Sunnah.com",
+          "description": "مجموعة أحاديث صحيحة مع البحث والتحقق",
+          "url": "https://sunnah.com/",
+          "type": "primary",
+          "icon": "hadith"
+        }
+      ]
+    },
+    "scholarly": {
+      "title": "المراجع العلمية",
+      "description": "فتاوى وأحكام من علماء إسلاميين مؤهلين ومجامع فقهية",
+      "sources": [
+        {
+          "name": "إسلام سؤال وجواب",
+          "description": "منصة شاملة للأسئلة والأجوبة من منظور حنبلي",
+          "url": "https://islamqa.info/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "إسلام ويب",
+          "description": "بوابة إسلامية من منظور مالكي وشافعي",
+          "url": "https://www.islamweb.net/",
+          "type": "scholar",
+          "icon": "scholar"
+        },
+        {
+          "name": "دار الإفتاء المصرية",
+          "description": "مؤسسة الفتوى الرسمية في مصر",
+          "url": "https://www.dar-alifta.org/",
+          "type": "council",
+          "icon": "council"
+        }
+      ]
+    },
+    "academic": {
+      "title": "الموارد الأكاديمية",
+      "description": "أوراق بحثية ودراسات أكاديمية حول التمويل الإسلامي",
+      "sources": [
+        {
+          "name": "الأكاديمية الإسلامية للبحث",
+          "description": "مؤسسة بحثية تركز على الاقتصاد الإسلامي",
+          "url": "https://www.islamic-academy.org/",
+          "type": "academic",
+          "icon": "academy"
+        },
+        {
+          "name": "الجامعة الإسلامية العالمية ماليزيا",
+          "description": "بحث أكاديمي حول التمويل والاقتصاد الإسلامي",
+          "url": "https://www.iium.edu.my/",
+          "type": "academic",
+          "icon": "university"
+        }
+      ]
+    },
+    "regulatory": {
+      "title": "الهيئات التنظيمية",
+      "description": "سلطات تنظيم المصرفية والتمويل الإسلامي",
+      "sources": [
+        {
+          "name": "مجلس الخدمات المالية الإسلامية",
+          "description": "هيئة وضع المعايير الدولية للتمويل الإسلامي",
+          "url": "https://www.ifsb.org/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        },
+        {
+          "name": "منظمة المحاسبة والمراجعة للمؤسسات المالية الإسلامية",
+          "description": "معايير AAOIFI للتمويل الإسلامي",
+          "url": "https://aaoifi.com/",
+          "type": "regulatory",
+          "icon": "regulatory"
+        }
+      ]
+    }
+  }
+} 

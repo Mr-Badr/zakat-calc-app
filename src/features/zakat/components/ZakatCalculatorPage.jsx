@@ -19,8 +19,11 @@ import LivestockCalculator from './calculators/LivestockCalculator';
 import IncomeCalculator from './calculators/IncomeCalculator';
 import RentalCalculator from './calculators/RentalCalculator';
 import InvestmentCalculator from './calculators/InvestmentCalculator';
+import DebtsCalculator from './calculators/DebtsCalculator';
+import MineralsCalculator from './calculators/MineralsCalculator';
 
 import CurrencyService from '@/features/currency/services/currencyService';
+import { Tooltip } from '@/common/components/Tooltip';
 
 export default function ZakatCalculatorPage({ 
   lang 
@@ -79,6 +82,12 @@ export default function ZakatCalculatorPage({
         return <RentalCalculator {...calculatorProps} />;
       case 'investments':
         return <InvestmentCalculator {...calculatorProps} />;
+      case 'stocks':
+        return <InvestmentCalculator {...calculatorProps} />;
+      case 'debts':
+        return <DebtsCalculator {...calculatorProps} />;
+      case 'minerals':
+        return <MineralsCalculator {...calculatorProps} />;
       default:
         return null;
     }
@@ -106,6 +115,12 @@ export default function ZakatCalculatorPage({
           }}
           onLocationDetected={handleLocationDetected}
         />
+
+        <div className="mb-4">
+          <Tooltip content={t('calculators.nisabTooltip', 'يتم تحديد نصاب الذهب تلقائياً حسب بلدك وسعر الذهب المحلي.')}>
+            {t('calculators.nisabAuto', 'نصاب الذهب (تلقائي حسب البلد):')} <span className="font-bold">{goldPrice} {selectedCurrency}</span>
+          </Tooltip>
+        </div>
 
         <GoldPriceDisplay currency={selectedCurrency} onPriceUpdate={handleGoldPriceUpdate} />
 

@@ -42,10 +42,22 @@ export const zakatTypes = [
     icon: 'Building'
   },
   {
-    id: 'investments',
+    id: 'stocks',
     name: 'زكاة الأسهم والاستثمارات',
     description: 'زكاة الأسهم والصناديق الاستثمارية والسندات الإسلامية',
     icon: 'TrendingUp'
+  },
+  {
+    id: 'debts',
+    name: 'زكاة الديون',
+    description: 'زكاة الديون المستحقة والمطلوبة',
+    icon: 'CreditCard'
+  },
+  {
+    id: 'minerals',
+    name: 'زكاة المعادن والركاز',
+    description: 'زكاة المعادن المستخرجة والكنوز (الركاز)',
+    icon: 'Pickaxe'
   }
 ];
 

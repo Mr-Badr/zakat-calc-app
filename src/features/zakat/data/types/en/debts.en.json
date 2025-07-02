@@ -1,0 +1,29 @@
+{
+  "name": "Debts",
+  "icon": "💳",
+  "intro": "Zakat on debts depends on whether you are owed money or owe others. If you are owed money and expect repayment, zakat is due. If you owe, you may subtract immediate debts from your zakatable assets.",
+  "evidences": [
+    { "type": "Quran", "reference": "2:280", "text": "And if someone is in hardship, then [let there be] postponement until [a time of] ease..." },
+    { "type": "Hadith", "reference": "Bukhari 1464", "text": "Whoever takes people's wealth intending to repay it, Allah will repay it for him..." }
+  ],
+  "conditions": [
+    "Muslim, adult, sane, and free.",
+    "Debts owed to you are expected to be repaid.",
+    "Debts you owe are immediate and due within the year."
+  ],
+  "calculation": "Add debts owed to you (if expected). Subtract immediate debts you owe from your zakatable assets.",
+  "example": "Example: You are owed $1,000 and expect repayment. Add to your zakat calculation. You owe $500 due this year; subtract from your assets.",
+  "madhhabNotes": [
+    "All schools: Zakat is due on debts owed to you if expected. Immediate debts you owe are subtracted."
+  ],
+  "faq": [
+    { "q": "Is zakat due on money I lent to others?", "a": "Yes, if you expect repayment. See: https://islamqa.info/en/answers/1464/zakaah-on-loans-given-to-others" },
+    { "q": "Can I subtract all debts I owe?", "a": "Only immediate debts due within the year. See: https://islamqa.info/en/answers/22426/does-he-have-to-pay-zakaah-on-money-from-which-he-will-pay-off-a-debt" }
+  ],
+  "sources": [
+    { "name": "IslamQA", "url": "https://islamqa.info/en/answers/1464/zakaah-on-loans-given-to-others" },
+    { "name": "Sunnah.com (Bukhari 1464)", "url": "https://sunnah.com/bukhari:1464" }
+  ],
+  "internalLinks": ["money", "business"],
+  "cta": "Calculate Now"
+} 
